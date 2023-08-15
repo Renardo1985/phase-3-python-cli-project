@@ -19,7 +19,7 @@ session.query(Playlist).delete()
 
 for _ in range(10):
   
-    user = User(username = fake.domain_word(), email = fake.email())
+    user = User(email = fake.email())
     session.add(user)
     session.commit()
     

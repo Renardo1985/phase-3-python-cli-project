@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2f09f1c65ddf481582d963df521081099a9317ba2b4019f1a31039a8dbf0a124"
+            "sha256": "b7d58bef05b9d37cfb2e962afe1086faed9e920228adbad0c2f6f59028ee45a9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -360,6 +360,13 @@
             ],
             "version": "==0.7.5"
         },
+        "prettycli": {
+            "hashes": [
+                "sha256:509e9cae6da299b43858205912c4b512da6786f9fa37c0fa64f253b667c9bad4"
+            ],
+            "index": "pypi",
+            "version": "==0.1"
+        },
         "prompt-toolkit": {
             "hashes": [
                 "sha256:04505ade687dc26dc4284b1ad19a83be2f2afe83e7a828ace0c72f3a1df72aac",
@@ -405,6 +412,14 @@
             ],
             "index": "pypi",
             "version": "==2.31.0"
+        },
+        "simple-term-menu": {
+            "hashes": [
+                "sha256:368b4158d1749b868552fb6c054b8301785086c71a7253dac8404cc3cb2d30e8",
+                "sha256:f12945d5c6998088e86a228e0aff12ff655f5bfad786c86677f23faa1d2afa50"
+            ],
+            "index": "pypi",
+            "version": "==1.6.1"
         },
         "six": {
             "hashes": [

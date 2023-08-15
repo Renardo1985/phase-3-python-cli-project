@@ -9,6 +9,8 @@ sqlalchemy = "==1.4.41"
 ipdb = "*"
 faker = "*"
 requests = "*"
+prettycli = "*"
+simple-term-menu = "*"
 
 [dev-packages]
 

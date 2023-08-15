@@ -1,5 +1,11 @@
-from sqlalchemy.orm import declarative_base, relationship
-from sqlalchemy import Column, Integer, String, DateTime, func, ForeignKey, Table
+from sqlalchemy.orm import declarative_base, relationship, sessionmaker
+from sqlalchemy import Column, Integer, String, DateTime, func, ForeignKey, Table, create_engine
+
+
+engine = create_engine('sqlite:///project_db.db')
+
+Session = sessionmaker(bind=engine)
+session = Session()
 
 Base = declarative_base()
 
@@ -13,10 +19,20 @@ playlist_songs_link = Table(
 class User(Base):
     __tablename__ = "users"
     id = Column(Integer,primary_key=True) 
-    username = Column(String, unique=True)
     email = Column(String,unique=True)   
     playlist = relationship("Playlist", backref="user") 
     
+    @classmethod 
+    def find_or_create_by(cls, email):
+        user = session.query(cls).filter(cls.email.like(email)).first()
+        if user:
+            return user
+        else:
+            user = User(email=email)
+            session.add(user)
+            session.commit()
+            return user
+        
     def __repr__(self):
         return f"\n<User" \
             + f"id={self.id}, " \
