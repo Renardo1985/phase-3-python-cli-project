@@ -1,8 +1,8 @@
-"""initialversion
+"""initial version
 
-Revision ID: 7ed0d756dba3
+Revision ID: 0408e7af4dd9
 Revises: 
-Create Date: 2023-08-14 16:21:24.280508
+Create Date: 2023-08-15 10:20:39.561084
 
 """
 from typing import Sequence, Union
@@ -12,7 +12,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision: str = '7ed0d756dba3'
+revision: str = '0408e7af4dd9'
 down_revision: Union[str, None] = None
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
@@ -25,12 +25,16 @@ def upgrade() -> None:
     sa.Column('title', sa.String(), nullable=True),
     sa.Column('artist', sa.String(), nullable=True),
     sa.Column('genre', sa.String(), nullable=True),
+    sa.Column('year', sa.String(), nullable=True),
     sa.PrimaryKeyConstraint('id')
     )
     op.create_table('users',
     sa.Column('id', sa.Integer(), nullable=False),
+    sa.Column('username', sa.String(), nullable=True),
     sa.Column('email', sa.String(), nullable=True),
-    sa.PrimaryKeyConstraint('id')
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('email'),
+    sa.UniqueConstraint('username')
     )
     op.create_table('playlists',
     sa.Column('id', sa.Integer(), nullable=False),

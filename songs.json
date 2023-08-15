@@ -1,0 +1,3503 @@
+[
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "Like a Rolling Stone",
+      "TIME": "6:04",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Satisfaction",
+      "TIME": "3:43",
+      "YEAR": "1985",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "John Lennon",
+      "TITLE": "Imagine",
+      "TIME": "3:02",
+      "YEAR": "1971",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Marvin Gaye",
+      "TITLE": "What's Going On",
+      "TIME": "3:47",
+      "YEAR": "1971",
+      "GENRE": "Dance 1970s"
+    },
+    {
+      "ARTIST": "Aretha Franklin",
+      "TITLE": "Respect",
+      "TIME": "2:23",
+      "YEAR": "1967",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Beach Boys",
+      "TITLE": "Good Vibrations",
+      "TIME": "3:36",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Chuck Berry",
+      "TITLE": "Johnny B. Goode",
+      "TIME": "2:38",
+      "YEAR": "1958",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Hey Jude",
+      "TIME": "7:08",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Nirvana",
+      "TITLE": "Smells Like Teen Spirit",
+      "TIME": "5:01",
+      "YEAR": "1991",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "Ray Charles",
+      "TITLE": "What'd I Say (Parts 1 And 2)",
+      "TIME": "5:06",
+      "YEAR": "1959",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "The Who",
+      "TITLE": "My Generation",
+      "TIME": "3:17",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Sam Cooke",
+      "TITLE": "A Change Is Gonna Come",
+      "TIME": "3:13",
+      "YEAR": "1960",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Yesterday",
+      "TIME": "2:05",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "Blowin' in the Wind",
+      "TIME": "2:46",
+      "YEAR": "1967",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Clash",
+      "TITLE": "London Calling",
+      "TIME": "3:18",
+      "YEAR": "1979",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "I Want to Hold Your Hand",
+      "TIME": "2:26",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Jimi Hendrix",
+      "TITLE": "Purple Haze",
+      "TIME": "2:50",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Chuck Berry",
+      "TITLE": "Maybellene",
+      "TIME": "2:19",
+      "YEAR": "1955",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Elvis Presley",
+      "TITLE": "Hound Dog",
+      "TIME": "2:15",
+      "YEAR": "1956",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Let It Be",
+      "TIME": "3:52",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Bruce Springsteen",
+      "TITLE": "Born to Run",
+      "TIME": "4:30",
+      "YEAR": "1975",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Ronettes",
+      "TITLE": "Be My Baby",
+      "TIME": "2:37",
+      "YEAR": "1963",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "In My Life",
+      "TIME": "2:27",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Impressions",
+      "TITLE": "People Get Ready",
+      "TIME": "2:38",
+      "YEAR": "2003",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Beach Boys",
+      "TITLE": "God Only Knows",
+      "TIME": "2:52",
+      "YEAR": "1966",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "A Day in the Life",
+      "TIME": "5:06",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Derek & The Dominos",
+      "TITLE": "Layla",
+      "TIME": "7:04",
+      "YEAR": "1972",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Otis Redding",
+      "TITLE": "(Sittin' On) the Dock of the Bay",
+      "TIME": "2:41",
+      "YEAR": "1968",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Help!",
+      "TIME": "2:20",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Johnny Cash",
+      "TITLE": "I Walk the Line",
+      "TIME": "2:41",
+      "YEAR": "1956",
+      "GENRE": "Country"
+    },
+    {
+      "ARTIST": "Led Zeppelin",
+      "TITLE": "Stairway to Heaven",
+      "TIME": "7:59",
+      "YEAR": "1971",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Sympathy for the Devil",
+      "TIME": "6:18",
+      "YEAR": "1968",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Tina Turner",
+      "TITLE": "River Deep - Mountain High",
+      "TIME": "3:40",
+      "YEAR": "1991",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "The Righteous Brothers",
+      "TITLE": "You've Lost That Lovin' Feelin'",
+      "TIME": "3:41",
+      "YEAR": "1964",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Doors",
+      "TITLE": "Light My Fire",
+      "TIME": "7:06",
+      "YEAR": "1967",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "U2",
+      "TITLE": "One",
+      "TIME": "4:35",
+      "YEAR": "1992",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Bob Marley & The Wailers",
+      "TITLE": "No Woman No Cry",
+      "TIME": "7:07",
+      "YEAR": "1974",
+      "GENRE": "Reggae"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Gimme Shelter",
+      "TIME": "4:32",
+      "YEAR": "1969",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Buddy Holly",
+      "TITLE": "That'll Be the Day",
+      "TIME": "2:16",
+      "YEAR": "1957",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Martha Reeves & The Vandellas",
+      "TITLE": "Dancing in the Street",
+      "TIME": "2:37",
+      "YEAR": "1964",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "The Band",
+      "TITLE": "The Weight",
+      "TIME": "4:31",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Kinks",
+      "TITLE": "Waterloo Sunset",
+      "TIME": "3:17",
+      "YEAR": "1967",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Little Richard",
+      "TITLE": "Tutti-Frutti",
+      "TIME": "2:22",
+      "YEAR": "1956",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Ray Charles",
+      "TITLE": "Georgia on My Mind",
+      "TIME": "3:38",
+      "YEAR": "1960",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Elvis Presley",
+      "TITLE": "Heartbreak Hotel",
+      "TIME": "2:09",
+      "YEAR": "1956",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "David Bowie",
+      "TITLE": "Heroes",
+      "TIME": "3:33",
+      "YEAR": "1998",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Simon & Garfunkel",
+      "TITLE": "Bridge Over Troubled Water",
+      "TIME": "4:51",
+      "YEAR": "1970",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Jimi Hendrix",
+      "TITLE": "All Along the Watchtower",
+      "TIME": "4:01",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Eagles",
+      "TITLE": "Hotel California",
+      "TIME": "6:29",
+      "YEAR": "1977",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Smokey Robinson",
+      "TITLE": "Tracks of My Tears",
+      "TIME": "2:55",
+      "YEAR": "1965",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Grandmaster Flash & Melle Mel",
+      "TITLE": "The Message",
+      "TIME": "7:07",
+      "YEAR": "1981",
+      "GENRE": "R&B 1980s"
+    },
+    {
+      "ARTIST": "Prince",
+      "TITLE": "When Doves Cry",
+      "TIME": "3:48",
+      "YEAR": "1984",
+      "GENRE": "Dance 1980s"
+    },
+    {
+      "ARTIST": "Sex Pistols",
+      "TITLE": "Anarchy in the U.K.",
+      "TIME": "3:32",
+      "YEAR": "1977",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Percy Sledge",
+      "TITLE": "When a Man Loves a Woman",
+      "TIME": "2:52",
+      "YEAR": "1966",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Kingsmen",
+      "TITLE": "Louie Louie",
+      "TIME": "2:42",
+      "YEAR": "1963",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Little Richard",
+      "TITLE": "Long Tall Sally",
+      "TIME": "2:06",
+      "YEAR": "1956",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Procol Harum",
+      "TITLE": "A Whiter Shade of Pale",
+      "TIME": "4:04",
+      "YEAR": "1967",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Michael Jackson",
+      "TITLE": "Billie Jean",
+      "TIME": "4:54",
+      "YEAR": "1983",
+      "GENRE": "Dance 1980s"
+    },
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "The Times They Are A-Changin'",
+      "TIME": "3:11",
+      "YEAR": "1967",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Al Green",
+      "TITLE": "Let's Stay Together",
+      "TIME": "3:17",
+      "YEAR": "1971",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Jerry Lee Lewis",
+      "TITLE": "Whole Lotta Shakin' Going On",
+      "TIME": "2:51",
+      "YEAR": "1957",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Bo Diddley",
+      "TITLE": "Bo Diddley",
+      "TIME": "2:20",
+      "YEAR": "1957",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Buffalo Springfield",
+      "TITLE": "For What It's Worth (Stop, Hey What's That Sound)",
+      "TIME": "2:38",
+      "YEAR": "1967",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "She Loves You",
+      "TIME": "2:22",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Cream",
+      "TITLE": "Sunshine of Your Love",
+      "TIME": "4:11",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Bob Marley & The Wailers",
+      "TITLE": "Redemption Song",
+      "TIME": "3:48",
+      "YEAR": "1980",
+      "GENRE": "Reggae"
+    },
+    {
+      "ARTIST": "Elvis Presley",
+      "TITLE": "Jailhouse Rock",
+      "TIME": "2:27",
+      "YEAR": "1957",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "Tangled Up in Blue",
+      "TIME": "5:43",
+      "YEAR": "1994",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Roy Orbison",
+      "TITLE": "Crying",
+      "TIME": "2:47",
+      "YEAR": "2006",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Dionne Warwick",
+      "TITLE": "Walk on By",
+      "TIME": "2:44",
+      "YEAR": "1964",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Beach Boys",
+      "TITLE": "California Girls",
+      "TIME": "2:37",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "James Brown",
+      "TITLE": "Papa's Got a Brand New Bag Part 1",
+      "TIME": "2:03",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Eddie Cochran",
+      "TITLE": "Summertime Blues",
+      "TIME": "1:59",
+      "YEAR": "1970",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Stevie Wonder",
+      "TITLE": "Superstition",
+      "TIME": "4:25",
+      "YEAR": "1972",
+      "GENRE": "Disco"
+    },
+    {
+      "ARTIST": "Led Zeppelin",
+      "TITLE": "Whole Lotta Love",
+      "TIME": "5:33",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Strawberry Fields Forever",
+      "TIME": "4:08",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Elvis Presley",
+      "TITLE": "Mystery Train",
+      "TIME": "2:27",
+      "YEAR": "2000",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "James Brown",
+      "TITLE": "I Got You",
+      "TIME": "2:46",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Byrds",
+      "TITLE": "Mr. Tambourine Man",
+      "TIME": "2:18",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Marvin Gaye",
+      "TITLE": "I Heard It Through the Grapevine",
+      "TIME": "5:03",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Fats Domino",
+      "TITLE": "Blueberry Hill",
+      "TIME": "2:19",
+      "YEAR": "1956",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Kinks",
+      "TITLE": "You Really Got Me",
+      "TIME": "2:13",
+      "YEAR": "1964",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Norwegian Wood (This Bird Has Flown)",
+      "TIME": "2:05",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Police",
+      "TITLE": "Every Breath You Take",
+      "TIME": "4:13",
+      "YEAR": "1983",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Patsy Cline",
+      "TITLE": "Crazy",
+      "TIME": "2:41",
+      "YEAR": "1961",
+      "GENRE": "Country"
+    },
+    {
+      "ARTIST": "Bruce Springsteen",
+      "TITLE": "Thunder Road",
+      "TIME": "4:51",
+      "YEAR": "1975",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Johnny Cash",
+      "TITLE": "Ring of Fire",
+      "TIME": "2:38",
+      "YEAR": "1963",
+      "GENRE": "Country"
+    },
+    {
+      "ARTIST": "The Temptations",
+      "TITLE": "My Girl",
+      "TIME": "2:42",
+      "YEAR": "1965",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Mamas & the Papas",
+      "TITLE": "California Dreamin'",
+      "TIME": "2:39",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Five Satins",
+      "TITLE": "In the Still of the Night",
+      "TIME": "3:02",
+      "YEAR": "1956",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Elvis Presley",
+      "TITLE": "Suspicious Minds",
+      "TIME": "3:20",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Ramones",
+      "TITLE": "Blitzkrieg Bop",
+      "TIME": "2:12",
+      "YEAR": "1976",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "U2",
+      "TITLE": "I Still Haven't Found What I'm Looking For",
+      "TIME": "4:37",
+      "YEAR": "1987",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Little Richard",
+      "TITLE": "Good Golly Miss Molly",
+      "TIME": "2:07",
+      "YEAR": "1958",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Carl Perkins",
+      "TITLE": "Blue Suede Shoes",
+      "TIME": "2:14",
+      "YEAR": "1956",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Jerry Lee Lewis",
+      "TITLE": "Great Balls of Fire",
+      "TIME": "1:51",
+      "YEAR": "1957",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Chuck Berry",
+      "TITLE": "Roll Over Beethoven",
+      "TIME": "2:25",
+      "YEAR": "1959",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Al Green",
+      "TITLE": "Love And Happiness",
+      "TIME": "5:07",
+      "YEAR": "1972",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Creedence Clearwater Revival",
+      "TITLE": "Fortunate Son",
+      "TIME": "2:20",
+      "YEAR": "1969",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "You Can't Always Get What You Want",
+      "TIME": "7:30",
+      "YEAR": "1969",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Jimi Hendrix",
+      "TITLE": "Voodoo Child",
+      "TIME": "5:13",
+      "YEAR": "1993",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Gene Vincent",
+      "TITLE": "Be-Bop-A-Lula",
+      "TIME": "2:35",
+      "YEAR": "1956",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Donna Summer",
+      "TITLE": "Hot Stuff",
+      "TIME": "3:50",
+      "YEAR": "1979",
+      "GENRE": "Disco"
+    },
+    {
+      "ARTIST": "Stevie Wonder",
+      "TITLE": "Living for the City",
+      "TIME": "7:25",
+      "YEAR": "1973",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Simon & Garfunkel",
+      "TITLE": "The Boxer",
+      "TIME": "5:09",
+      "YEAR": "1969",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "Mr. Tambourine Man",
+      "TIME": "5:28",
+      "YEAR": "1967",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Buddy Holly",
+      "TITLE": "Not Fade Away",
+      "TIME": "2:16",
+      "YEAR": "1999",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Prince",
+      "TITLE": "Little Red Corvette",
+      "TIME": "4:56",
+      "YEAR": "1983",
+      "GENRE": "Dance 1980s"
+    },
+    {
+      "ARTIST": "Van Morrison",
+      "TITLE": "Brown Eyed Girl",
+      "TIME": "3:03",
+      "YEAR": "1967",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Otis Redding",
+      "TITLE": "I've Been Loving You Too Long (To Stop Now)",
+      "TIME": "3:13",
+      "YEAR": "1965",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Hank Williams",
+      "TITLE": "I'm So Lonesome I Could Cry",
+      "TIME": "2:49",
+      "YEAR": "1970",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Elvis Presley",
+      "TITLE": "That's All Right",
+      "TIME": "1:57",
+      "YEAR": "2000",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Drifters",
+      "TITLE": "Up on the Roof",
+      "TIME": "2:37",
+      "YEAR": "1962",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Crystals",
+      "TITLE": "Da Doo Ron Ron",
+      "TIME": "2:18",
+      "YEAR": "1992",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Sam Cooke",
+      "TITLE": "You Send Me",
+      "TIME": "2:45",
+      "YEAR": "1957",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Honky Tonk Woman",
+      "TIME": "3:00",
+      "YEAR": "1969",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Al Green",
+      "TITLE": "Take Me to the River",
+      "TIME": "3:45",
+      "YEAR": "1974",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Isley Brothers",
+      "TITLE": "Shout",
+      "TIME": "4:36",
+      "YEAR": "1960",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Fleetwood Mac",
+      "TITLE": "Go Your Own Way",
+      "TIME": "3:39",
+      "YEAR": "1977",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Jackson 5",
+      "TITLE": "I Want You Back",
+      "TIME": "3:00",
+      "YEAR": "1969",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "Ben E. King",
+      "TITLE": "Stand by Me",
+      "TIME": "2:54",
+      "YEAR": "1961",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Animals",
+      "TITLE": "House of the Rising Sun",
+      "TIME": "4:28",
+      "YEAR": "1964",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "James Brown",
+      "TITLE": "It's a Man's Man's Man's World",
+      "TIME": "2:47",
+      "YEAR": "1991",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Jumpin' Jack Flash",
+      "TIME": "3:40",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Shirelles",
+      "TITLE": "Will You Love Me Tomorrow",
+      "TIME": "2:43",
+      "YEAR": "1961",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Big Joe Turner",
+      "TITLE": "Shake, Rattle And Roll",
+      "TIME": "3:00",
+      "YEAR": "1954",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "David Bowie",
+      "TITLE": "Changes",
+      "TIME": "3:34",
+      "YEAR": "1972",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Chuck Berry",
+      "TITLE": "Rock & Roll Music",
+      "TIME": "2:31",
+      "YEAR": "1957",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Steppenwolf",
+      "TITLE": "Born to Be Wild",
+      "TIME": "3:28",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Rod Stewart",
+      "TITLE": "Maggie May",
+      "TIME": "4:58",
+      "YEAR": "1971",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "U2",
+      "TITLE": "With or Without You",
+      "TIME": "4:56",
+      "YEAR": "1987",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Bo Diddley",
+      "TITLE": "Who Do You Love",
+      "TIME": "2:30",
+      "YEAR": "1957",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Who",
+      "TITLE": "Won't Get Fooled Again",
+      "TIME": "3:38",
+      "YEAR": "1971",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Wilson Pickett",
+      "TITLE": "In the Midnight Hour",
+      "TIME": "2:36",
+      "YEAR": "1965",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "While My Guitar Gently Weeps",
+      "TIME": "4:46",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Elton John",
+      "TITLE": "Your Song",
+      "TIME": "4:00",
+      "YEAR": "1970",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Eleanor Rigby",
+      "TIME": "2:08",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Sly & The Family Stone",
+      "TITLE": "Family Affair",
+      "TIME": "3:02",
+      "YEAR": "1971",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "I Saw Her Standing There",
+      "TIME": "2:51",
+      "YEAR": "1963",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Led Zeppelin",
+      "TITLE": "Kashmir",
+      "TIME": "8:32",
+      "YEAR": "1990",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Everly Brothers",
+      "TITLE": "All I Have to Do Is Dream",
+      "TIME": "2:22",
+      "YEAR": "1958",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "James Brown",
+      "TITLE": "Please, Please, Please",
+      "TIME": "2:44",
+      "YEAR": "1991",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Prince",
+      "TITLE": "Purple Rain",
+      "TIME": "6:32",
+      "YEAR": "1984",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Ramones",
+      "TITLE": "I Wanna Be Sedated",
+      "TIME": "2:28",
+      "YEAR": "1980",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Sly & The Family Stone",
+      "TITLE": "Everyday People",
+      "TIME": "2:19",
+      "YEAR": "1969",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "The B-52's",
+      "TITLE": "Rock Lobster",
+      "TIME": "6:50",
+      "YEAR": "1979",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Iggy Pop",
+      "TITLE": "Lust for Life",
+      "TIME": "5:13",
+      "YEAR": "1977",
+      "GENRE": "Rock 2000s"
+    },
+    {
+      "ARTIST": "Janis Joplin",
+      "TITLE": "Me And Bobby McGee",
+      "TIME": "4:34",
+      "YEAR": "1973",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Everly Brothers",
+      "TITLE": "Cathy's Clown",
+      "TIME": "2:22",
+      "YEAR": "1960",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Byrds",
+      "TITLE": "Eight Miles High",
+      "TIME": "3:36",
+      "YEAR": "1966",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Penguins",
+      "TITLE": "Earth Angel (Will You Be Mine)",
+      "TIME": "2:55",
+      "YEAR": "1955",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Jimi Hendrix",
+      "TITLE": "Foxey Lady",
+      "TIME": "3:16",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "A Hard Day's Night",
+      "TIME": "2:34",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Buddy Holly",
+      "TITLE": "Rave On",
+      "TIME": "1:49",
+      "YEAR": "1958",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Creedence Clearwater Revival",
+      "TITLE": "Proud Mary",
+      "TIME": "3:07",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Simon & Garfunkel",
+      "TITLE": "The Sounds of Silence",
+      "TIME": "3:04",
+      "YEAR": "1965",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Flamingos",
+      "TITLE": "I Only Have Eyes for You",
+      "TIME": "3:22",
+      "YEAR": "1959",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Bill Haley and His Comets",
+      "TITLE": "Rock Around the Clock",
+      "TIME": "2:10",
+      "YEAR": "1955",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "The Velvet Underground",
+      "TITLE": "I'm Waiting for the Man",
+      "TIME": "4:40",
+      "YEAR": "2005",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Public Enemy",
+      "TITLE": "Bring the Noise",
+      "TIME": "3:47",
+      "YEAR": "2005",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Ray Charles",
+      "TITLE": "I Can't Stop Loving You",
+      "TIME": "4:21",
+      "YEAR": "1962",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Sinead O'Connor",
+      "TITLE": "Nothing Compares 2 U",
+      "TIME": "5:08",
+      "YEAR": "1990",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Queen",
+      "TITLE": "Bohemian Rhapsody",
+      "TIME": "5:53",
+      "YEAR": "1976",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Johnny Cash",
+      "TITLE": "Folsom Prison Blues",
+      "TIME": "2:46",
+      "YEAR": "1956",
+      "GENRE": "Country"
+    },
+    {
+      "ARTIST": "Tracy Chapman",
+      "TITLE": "Fast Car",
+      "TIME": "4:53",
+      "YEAR": "1988",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Eminem",
+      "TITLE": "Lose Yourself",
+      "TIME": "4:25",
+      "YEAR": "2005",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Marvin Gaye",
+      "TITLE": "Let's Get It On",
+      "TIME": "3:59",
+      "YEAR": "1973",
+      "GENRE": "Dance 1970s"
+    },
+    {
+      "ARTIST": "The Temptations",
+      "TITLE": "Papa Was a Rollin' Stone",
+      "TIME": "6:54",
+      "YEAR": "1972",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "R.E.M.",
+      "TITLE": "Losing My Religion",
+      "TIME": "4:27",
+      "YEAR": "1991",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "Joni Mitchell",
+      "TITLE": "Both Sides Now",
+      "TIME": "5:46",
+      "YEAR": "1969",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "ABBA",
+      "TITLE": "Dancing Queen",
+      "TIME": "3:52",
+      "YEAR": "1977",
+      "GENRE": "Disco"
+    },
+    {
+      "ARTIST": "Aerosmith",
+      "TITLE": "Dream On",
+      "TIME": "4:25",
+      "YEAR": "1976",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Sex Pistols",
+      "TITLE": "God Save the Queen",
+      "TIME": "3:18",
+      "YEAR": "1977",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Paint It Black",
+      "TIME": "3:45",
+      "YEAR": "1966",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Bobby Fuller Four",
+      "TITLE": "I Fought the Law",
+      "TIME": "2:18",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Beach Boys",
+      "TITLE": "Don't Worry Baby",
+      "TIME": "2:45",
+      "YEAR": "1964",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Tom Petty and The Heartbreakers",
+      "TITLE": "Free Fallin'",
+      "TIME": "4:15",
+      "YEAR": "1989",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Big Star",
+      "TITLE": "September Gurls",
+      "TIME": "2:49",
+      "YEAR": "1978",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Joy Division",
+      "TITLE": "Love Will Tear Us Apart",
+      "TIME": "3:10",
+      "YEAR": "1980",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "OutKast",
+      "TITLE": "Hey Ya! [Radio Mix]",
+      "TIME": "3:59",
+      "YEAR": "2003",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Booker T & The MG's",
+      "TITLE": "Green Onions",
+      "TIME": "2:52",
+      "YEAR": "1962",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Drifters",
+      "TITLE": "Save the Last Dance for Me",
+      "TIME": "2:27",
+      "YEAR": "1960",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "B.B. King",
+      "TITLE": "The Thrill Is Gone",
+      "TIME": "5:25",
+      "YEAR": "1998",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Please Please Me",
+      "TIME": "2:03",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "Desolation Row",
+      "TIME": "11:20",
+      "YEAR": "1965",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Aretha Franklin",
+      "TITLE": "I Never Loved a Man (The Way I Love You)",
+      "TIME": "2:49",
+      "YEAR": "2002",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "AC/DC",
+      "TITLE": "Back in Black",
+      "TIME": "4:16",
+      "YEAR": "1981",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Creedence Clearwater Revival",
+      "TITLE": "Who'll Stop the Rain",
+      "TIME": "2:26",
+      "YEAR": "1970",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Bee Gees",
+      "TITLE": "Stayin' Alive",
+      "TIME": "4:43",
+      "YEAR": "1977",
+      "GENRE": "Disco"
+    },
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "Knockin' on Heaven's Door",
+      "TIME": "2:30",
+      "YEAR": "1973",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Lynyrd Skynyrd",
+      "TITLE": "Free Bird",
+      "TIME": "9:01",
+      "YEAR": "1975",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Glen Campbell",
+      "TITLE": "Wichita Lineman",
+      "TIME": "3:04",
+      "YEAR": "1968",
+      "GENRE": "Country"
+    },
+    {
+      "ARTIST": "The Drifters",
+      "TITLE": "There Goes My Baby",
+      "TIME": "2:07",
+      "YEAR": "1959",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Buddy Holly",
+      "TITLE": "Peggy Sue",
+      "TIME": "2:29",
+      "YEAR": "1957",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "The Chantels",
+      "TITLE": "Maybe",
+      "TIME": "2:52",
+      "YEAR": "1958",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Guns N' Roses",
+      "TITLE": "Sweet Child O' Mine",
+      "TIME": "5:55",
+      "YEAR": "1988",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Elvis Presley",
+      "TITLE": "Don't Be Cruel",
+      "TIME": "2:04",
+      "YEAR": "1956",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Jimi Hendrix",
+      "TITLE": "Hey Joe",
+      "TIME": "3:27",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Parliament",
+      "TITLE": "Flashlight",
+      "TIME": "4:28",
+      "YEAR": "1978",
+      "GENRE": "Dance 1970s"
+    },
+    {
+      "ARTIST": "Beck",
+      "TITLE": "Loser",
+      "TIME": "3:55",
+      "YEAR": "1994",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "New Order",
+      "TITLE": "Bizarre Love Triangle",
+      "TIME": "6:42",
+      "YEAR": "1987",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Come Together",
+      "TIME": "4:18",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "Positively 4th Street",
+      "TIME": "3:55",
+      "YEAR": "2000",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Otis Redding",
+      "TITLE": "Try a Little Tenderness",
+      "TIME": "3:16",
+      "YEAR": "1967",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Bill Withers",
+      "TITLE": "Lean on Me",
+      "TIME": "3:45",
+      "YEAR": "1972",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Four Tops",
+      "TITLE": "Reach Out (I'll Be There)",
+      "TIME": "3:00",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Everly Brothers",
+      "TITLE": "Bye Bye Love",
+      "TIME": "2:15",
+      "YEAR": "1957",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Van Morrison with Them",
+      "TITLE": "Gloria",
+      "TIME": "2:36",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Beach Boys",
+      "TITLE": "In My Room",
+      "TIME": "2:15",
+      "YEAR": "1963",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "? & The Mysterians",
+      "TITLE": "96 Tears",
+      "TIME": "3:01",
+      "YEAR": "1997",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Beach Boys",
+      "TITLE": "Caroline, No",
+      "TIME": "2:19",
+      "YEAR": "1966",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Prince",
+      "TITLE": "1999",
+      "TIME": "3:37",
+      "YEAR": "1983",
+      "GENRE": "Dance 1980s"
+    },
+    {
+      "ARTIST": "Hank Williams",
+      "TITLE": "Your Cheatin' Heart",
+      "TIME": "2:42",
+      "YEAR": "1953",
+      "GENRE": "Country"
+    },
+    {
+      "ARTIST": "Neil Young",
+      "TITLE": "Rockin' in the Free World",
+      "TIME": "4:44",
+      "YEAR": "2004",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Chords",
+      "TITLE": "Sh-Boom",
+      "TIME": "2:27",
+      "YEAR": "1985",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Lovin' Spoonful",
+      "TITLE": "Do You Believe in Magic",
+      "TIME": "2:07",
+      "YEAR": "1965",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Dolly Parton",
+      "TITLE": "Jolene",
+      "TIME": "2:41",
+      "YEAR": "1974",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "John Lee Hooker",
+      "TITLE": "Boom Boom",
+      "TIME": "2:10",
+      "YEAR": "1962",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Howlin' Wolf",
+      "TITLE": "Spoonful",
+      "TIME": "2:45",
+      "YEAR": "2003",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Left Banke",
+      "TITLE": "Walk Away Renee",
+      "TIME": "2:43",
+      "YEAR": "1967",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Lou Reed",
+      "TITLE": "Walk on the Wild Side",
+      "TIME": "4:12",
+      "YEAR": "1973",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Roy Orbison",
+      "TITLE": "Oh, Pretty Woman",
+      "TIME": "2:57",
+      "YEAR": "1964",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Sly & The Family Stone",
+      "TITLE": "Dance to the Music",
+      "TIME": "2:58",
+      "YEAR": "1968",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "Chic",
+      "TITLE": "Good Times",
+      "TIME": "3:44",
+      "YEAR": "1979",
+      "GENRE": "Disco"
+    },
+    {
+      "ARTIST": "Muddy Waters",
+      "TITLE": "I'm Your Hoochie Coochie Man",
+      "TIME": "2:52",
+      "YEAR": "1960",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Van Morrison",
+      "TITLE": "Moondance",
+      "TIME": "4:32",
+      "YEAR": "1970",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "James Taylor",
+      "TITLE": "Fire And Rain",
+      "TIME": "3:22",
+      "YEAR": "1970",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Clash",
+      "TITLE": "Should I Stay or Should I Go?",
+      "TIME": "3:07",
+      "YEAR": "1982",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Muddy Waters",
+      "TITLE": "Mannish Boy",
+      "TIME": "2:58",
+      "YEAR": "1960",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "Just Like a Woman",
+      "TIME": "4:52",
+      "YEAR": "1967",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Marvin Gaye",
+      "TITLE": "Sexual Healing",
+      "TIME": "3:59",
+      "YEAR": "1982",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Roy Orbison",
+      "TITLE": "Only the Lonely (Know How I Feel)",
+      "TIME": "2:26",
+      "YEAR": "1960",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Animals",
+      "TITLE": "We Gotta Get Out of This Place",
+      "TIME": "3:10",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Byrds",
+      "TITLE": "I'll Feel a Whole Lot Better",
+      "TIME": "2:33",
+      "YEAR": "1965",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Ray Charles",
+      "TITLE": "I've Got a Woman",
+      "TIME": "2:55",
+      "YEAR": "1994",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Buddy Holly",
+      "TITLE": "Everyday",
+      "TIME": "2:07",
+      "YEAR": "1957",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Afrika Bambaataa & Soulsonic Force",
+      "TITLE": "Planet Rock",
+      "TIME": "5:03",
+      "YEAR": "1985",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Patsy Cline",
+      "TITLE": "I Fall to Pieces",
+      "TIME": "2:49",
+      "YEAR": "1961",
+      "GENRE": "Country"
+    },
+    {
+      "ARTIST": "Dion",
+      "TITLE": "The Wanderer",
+      "TIME": "2:42",
+      "YEAR": "1961",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Dusty Springfield",
+      "TITLE": "Son of a Preacher Man",
+      "TIME": "2:27",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Sly & The Family Stone",
+      "TITLE": "Stand",
+      "TIME": "3:08",
+      "YEAR": "2002",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Elton John",
+      "TITLE": "Rocket Man",
+      "TIME": "4:42",
+      "YEAR": "1974",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The B-52's",
+      "TITLE": "Love Shack",
+      "TIME": "5:22",
+      "YEAR": "1989",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "The Spencer Davis Group",
+      "TITLE": "Gimme Some Lovin'",
+      "TIME": "2:53",
+      "YEAR": "1967",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Band",
+      "TITLE": "The Night They Drove Old Dixie Down",
+      "TIME": "3:32",
+      "YEAR": "1969",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Jackie Wilson",
+      "TITLE": "(Your Love Keeps Lifting Me) Higher And Higher",
+      "TIME": "2:57",
+      "YEAR": "1967",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Sly & The Family Stone",
+      "TITLE": "Hot Fun in the Summertime",
+      "TIME": "2:35",
+      "YEAR": "1969",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "Sugarhill Gang",
+      "TITLE": "Rapper's Delight",
+      "TIME": "6:32",
+      "YEAR": "1980",
+      "GENRE": "Dance 1980s"
+    },
+    {
+      "ARTIST": "Aretha Franklin",
+      "TITLE": "Chain of Fools",
+      "TIME": "2:43",
+      "YEAR": "1968",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "Black Sabbath",
+      "TITLE": "Paranoid",
+      "TIME": "2:45",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Bobby Darin",
+      "TITLE": "Mack the Knife",
+      "TIME": "3:04",
+      "YEAR": "1959",
+      "GENRE": "Easy"
+    },
+    {
+      "ARTIST": "Clyde McPhatter & The Drifters",
+      "TITLE": "Money Honey",
+      "TIME": "2:59",
+      "YEAR": "1990",
+      "GENRE": "Easy"
+    },
+    {
+      "ARTIST": "Mott the Hoople",
+      "TITLE": "All the Young Dudes",
+      "TIME": "3:32",
+      "YEAR": "1972",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "AC/DC",
+      "TITLE": "Highway to Hell",
+      "TIME": "3:29",
+      "YEAR": "1979",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Blondie",
+      "TITLE": "Heart of Glass",
+      "TIME": "4:34",
+      "YEAR": "1979",
+      "GENRE": "Dance 1970s"
+    },
+    {
+      "ARTIST": "Radiohead",
+      "TITLE": "Paranoid Android",
+      "TIME": "6:23",
+      "YEAR": "1997",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "The Troggs",
+      "TITLE": "Wild Thing",
+      "TIME": "2:35",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Who",
+      "TITLE": "I Can See for Miles",
+      "TIME": "4:21",
+      "YEAR": "1967",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Jeff Buckley",
+      "TITLE": "Hallelujah",
+      "TIME": "6:53",
+      "YEAR": "1994",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Dells",
+      "TITLE": "Oh What a Nite",
+      "TIME": "2:54",
+      "YEAR": "1988",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Stevie Wonder",
+      "TITLE": "Higher Ground",
+      "TIME": "3:11",
+      "YEAR": "1973",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Smokey Robinson and The Miracles",
+      "TITLE": "Ooo Baby Baby",
+      "TIME": "2:48",
+      "YEAR": "1965",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Crystals",
+      "TITLE": "He's a Rebel",
+      "TIME": "2:24",
+      "YEAR": "1962",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "Randy Newman",
+      "TITLE": "Sail Away",
+      "TIME": "2:50",
+      "YEAR": "1972",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Archie Bell & The Drells",
+      "TITLE": "Tighten Up",
+      "TIME": "3:14",
+      "YEAR": "1991",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Ronettes",
+      "TITLE": "Walking in the Rain",
+      "TIME": "3:16",
+      "YEAR": "1964",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "New York Dolls",
+      "TITLE": "Personality Crisis",
+      "TIME": "3:43",
+      "YEAR": "1973",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "U2",
+      "TITLE": "Sunday Bloody Sunday [Live]",
+      "TIME": "5:17",
+      "YEAR": "1983",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "The Modern Lovers",
+      "TITLE": "Roadrunner",
+      "TIME": "4:06",
+      "YEAR": "1976",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "George Jones",
+      "TITLE": "He Stopped Loving Her Today",
+      "TIME": "3:16",
+      "YEAR": "2005",
+      "GENRE": "Country"
+    },
+    {
+      "ARTIST": "The Beach Boys",
+      "TITLE": "Sloop John B",
+      "TIME": "2:54",
+      "YEAR": "1966",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Chuck Berry",
+      "TITLE": "Sweet Little Sixteen",
+      "TIME": "3:00",
+      "YEAR": "1958",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Something",
+      "TIME": "3:02",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Jefferson Airplane",
+      "TITLE": "Somebody to Love",
+      "TIME": "2:55",
+      "YEAR": "1967",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Bruce Springsteen",
+      "TITLE": "Born in the U.S.A.",
+      "TIME": "4:37",
+      "YEAR": "1984",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "The Staple Singers",
+      "TITLE": "I'll Take You There",
+      "TIME": "3:17",
+      "YEAR": "1989",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "David Bowie",
+      "TITLE": "Ziggy Stardust",
+      "TIME": "3:13",
+      "YEAR": "1972",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Cure",
+      "TITLE": "Pictures of You",
+      "TIME": "4:46",
+      "YEAR": "1989",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "The Dixie Cups",
+      "TITLE": "Chapel of Love",
+      "TIME": "2:45",
+      "YEAR": "1964",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Bill Withers",
+      "TITLE": "Ain't No Sunshine",
+      "TIME": "2:03",
+      "YEAR": "2002",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Stevie Wonder",
+      "TITLE": "You Are the Sunshine of My Life",
+      "TIME": "2:51",
+      "YEAR": "1973",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Joni Mitchell",
+      "TITLE": "Help Me",
+      "TIME": "3:24",
+      "YEAR": "1974",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Blondie",
+      "TITLE": "Call Me",
+      "TIME": "3:32",
+      "YEAR": "1980",
+      "GENRE": "Dance 1980s"
+    },
+    {
+      "ARTIST": "Elvis Costello",
+      "TITLE": "(What's So Funny 'Bout) Peace, Love & Understanding",
+      "TIME": "3:32",
+      "YEAR": "1999",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Howlin' Wolf",
+      "TITLE": "Smokestack Lightnin",
+      "TIME": "3:08",
+      "YEAR": "2003",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Pavement",
+      "TITLE": "Summer Babe [Winter Version]",
+      "TIME": "3:16",
+      "YEAR": "1992",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Run-DMC",
+      "TITLE": "Walk This Way",
+      "TIME": "5:11",
+      "YEAR": "1986",
+      "GENRE": "R&B 1980s"
+    },
+    {
+      "ARTIST": "Barrett Strong",
+      "TITLE": "Money (That's What I Want)",
+      "TIME": "2:27",
+      "YEAR": "1978",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Can't Buy Me Love",
+      "TIME": "2:13",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Eminem",
+      "TITLE": "Stan",
+      "TIME": "5:31",
+      "YEAR": "2005",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Zombies",
+      "TITLE": "She's Not There",
+      "TIME": "2:25",
+      "YEAR": "1964",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Clash",
+      "TITLE": "Train in Vain",
+      "TIME": "3:10",
+      "YEAR": "1980",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Al Green",
+      "TITLE": "Tired of Being Alone",
+      "TIME": "2:52",
+      "YEAR": "1971",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Led Zeppelin",
+      "TITLE": "Black Dog",
+      "TIME": "4:54",
+      "YEAR": "1971",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Street Fighting Man",
+      "TIME": "3:16",
+      "YEAR": "1968",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Bob Marley & The Wailers",
+      "TITLE": "Get Up Stand Up",
+      "TIME": "3:19",
+      "YEAR": "1975",
+      "GENRE": "Reggae"
+    },
+    {
+      "ARTIST": "Neil Young",
+      "TITLE": "Heart of Gold",
+      "TIME": "3:07",
+      "YEAR": "1972",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Blondie",
+      "TITLE": "One Way or Another",
+      "TIME": "3:35",
+      "YEAR": "1979",
+      "GENRE": "Dance 1970s"
+    },
+    {
+      "ARTIST": "Prince",
+      "TITLE": "Sign 'O' the Times",
+      "TIME": "3:42",
+      "YEAR": "1993",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Madonna",
+      "TITLE": "Like a Prayer",
+      "TIME": "5:27",
+      "YEAR": "1989",
+      "GENRE": "Dance 1980s"
+    },
+    {
+      "ARTIST": "Rod Stewart",
+      "TITLE": "Do Ya Think I'm Sexy?",
+      "TIME": "5:28",
+      "YEAR": "1979",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Willie Nelson",
+      "TITLE": "Blue Eyes Crying in the Rain",
+      "TIME": "2:20",
+      "YEAR": "1998",
+      "GENRE": "Country"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Ruby Tuesday",
+      "TIME": "3:16",
+      "YEAR": "1967",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "With a Little Help From My Friends",
+      "TIME": "2:43",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "James Brown",
+      "TITLE": "Say It Loud (I'm Back And I'm Proud)",
+      "TIME": "2:47",
+      "YEAR": "1991",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Jam",
+      "TITLE": "That's Entertainment",
+      "TIME": "3:31",
+      "YEAR": "1991",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Teenagers Featuring Frankie Lymon",
+      "TITLE": "Why Do Fools Fall in Love",
+      "TIME": "2:17",
+      "YEAR": "1956",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Jackie Wilson",
+      "TITLE": "Lonely Teardrops",
+      "TIME": "2:42",
+      "YEAR": "1959",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Tina Turner",
+      "TITLE": "What's Love Got to Do With It",
+      "TIME": "3:49",
+      "YEAR": "1984",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Black Sabbath",
+      "TITLE": "Iron Man",
+      "TIME": "3:27",
+      "YEAR": "1970",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Everly Brothers",
+      "TITLE": "Wake Up Little Susie",
+      "TIME": "2:02",
+      "YEAR": "1957",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Roy Orbison",
+      "TITLE": "In Dreams",
+      "TIME": "2:48",
+      "YEAR": "1963",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Screamin' Jay Hawkins",
+      "TITLE": "I Put a Spell on You",
+      "TIME": "2:28",
+      "YEAR": "1990",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Pink Floyd",
+      "TITLE": "Comfortably Numb",
+      "TIME": "6:21",
+      "YEAR": "1980",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Animals",
+      "TITLE": "Don't Let Me Be Misunderstood",
+      "TIME": "2:27",
+      "YEAR": "2003",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Pink Floyd",
+      "TITLE": "Wish You Were Here",
+      "TIME": "5:10",
+      "YEAR": "1975",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Jimmy Cliff",
+      "TITLE": "Many Rivers to Cross",
+      "TIME": "3:00",
+      "YEAR": "1969",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Elvis Costello",
+      "TITLE": "Alison",
+      "TIME": "3:21",
+      "YEAR": "1978",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Alice Cooper",
+      "TITLE": "School's Out",
+      "TIME": "3:28",
+      "YEAR": "1972",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Led Zeppelin",
+      "TITLE": "Heartbreaker",
+      "TIME": "4:14",
+      "YEAR": "1990",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Neil Young",
+      "TITLE": "Cortez the Killer",
+      "TIME": "7:32",
+      "YEAR": "1977",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Public Enemy",
+      "TITLE": "Fight the Power",
+      "TIME": "4:36",
+      "YEAR": "2005",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Patty Smyth",
+      "TITLE": "Dancing Barefoot",
+      "TIME": "4:16",
+      "YEAR": "1992",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Supremes",
+      "TITLE": "Baby Love",
+      "TIME": "2:36",
+      "YEAR": "1964",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "The Young Rascals",
+      "TITLE": "Good Lovin'",
+      "TIME": "2:29",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "James Brown",
+      "TITLE": "Sex Machine",
+      "TIME": "5:15",
+      "YEAR": "1970",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Impressions",
+      "TITLE": "For Your Precious Love",
+      "TIME": "2:46",
+      "YEAR": "2001",
+      "GENRE": "Easy"
+    },
+    {
+      "ARTIST": "The Doors",
+      "TITLE": "The End",
+      "TIME": "11:42",
+      "YEAR": "1985",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Earth, Wind & Fire",
+      "TITLE": "That's the Way of the World",
+      "TIME": "5:46",
+      "YEAR": "1978",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Queen",
+      "TITLE": "We Will Rock You",
+      "TIME": "2:00",
+      "YEAR": "1977",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Bonnie Raitt",
+      "TITLE": "I Can't Make You Love Me",
+      "TIME": "4:45",
+      "YEAR": "1991",
+      "GENRE": "Easy"
+    },
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "Subterranean Homesick Blues",
+      "TIME": "2:16",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Norman Greenbaum",
+      "TITLE": "Spirit in the Sky",
+      "TIME": "4:01",
+      "YEAR": "1969",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Wild Horses",
+      "TIME": "5:45",
+      "YEAR": "1971",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Velvet Underground",
+      "TITLE": "Sweet Jane",
+      "TIME": "3:15",
+      "YEAR": "1998",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Aerosmith",
+      "TITLE": "Walk This Way",
+      "TIME": "3:32",
+      "YEAR": "1975",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Michael Jackson",
+      "TITLE": "Beat It",
+      "TIME": "4:19",
+      "YEAR": "1983",
+      "GENRE": "Dance 1980s"
+    },
+    {
+      "ARTIST": "Wings",
+      "TITLE": "Maybe I'm Amazed",
+      "TIME": "3:51",
+      "YEAR": "2001",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Supremes",
+      "TITLE": "You Keep Me Hanging On",
+      "TIME": "2:41",
+      "YEAR": "1968",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Who",
+      "TITLE": "Baba O'Riley",
+      "TIME": "5:07",
+      "YEAR": "1971",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Jimmy Cliff",
+      "TITLE": "The Harder They Come",
+      "TIME": "3:06",
+      "YEAR": "1972",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Dion",
+      "TITLE": "Runaround Sue",
+      "TIME": "2:39",
+      "YEAR": "1961",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "LaVern Baker",
+      "TITLE": "Jim Dandy",
+      "TIME": "2:13",
+      "YEAR": "1991",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Janis Joplin",
+      "TITLE": "Piece of My Heart",
+      "TIME": "4:12",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Ritchie Valens",
+      "TITLE": "La Bamba",
+      "TIME": "2:04",
+      "YEAR": "1959",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "2Pac",
+      "TITLE": "California Love",
+      "TIME": "4:47",
+      "YEAR": "1996",
+      "GENRE": "R&B 1990s"
+    },
+    {
+      "ARTIST": "Elton John",
+      "TITLE": "Candle in the Wind",
+      "TIME": "3:48",
+      "YEAR": "1974",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Isley Brothers",
+      "TITLE": "That Lady (Part 1 & 2)",
+      "TIME": "5:34",
+      "YEAR": "1973",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Ben E. King",
+      "TITLE": "Spanish Harlem",
+      "TIME": "2:48",
+      "YEAR": "1961",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Little Eva",
+      "TITLE": "Loco-Motion",
+      "TIME": "2:28",
+      "YEAR": "1962",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Platters",
+      "TITLE": "Great Pretender",
+      "TIME": "2:39",
+      "YEAR": "1955",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Elvis Presley",
+      "TITLE": "All Shook Up",
+      "TIME": "2:00",
+      "YEAR": "1957",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Eric Clapton",
+      "TITLE": "Tears in Heaven",
+      "TIME": "4:32",
+      "YEAR": "1992",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Elvis Costello",
+      "TITLE": "Watching the Detective",
+      "TIME": "3:41",
+      "YEAR": "1978",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Creedence Clearwater Revival",
+      "TITLE": "Bad Moon Rising",
+      "TIME": "2:19",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Eurythmics",
+      "TITLE": "Sweet Dreams",
+      "TIME": "4:53",
+      "YEAR": "1983",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Jimi Hendrix",
+      "TITLE": "Little Wing",
+      "TIME": "2:23",
+      "YEAR": "1993",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Martha Reeves & The Vandellas",
+      "TITLE": "Nowhere to Run",
+      "TIME": "2:55",
+      "YEAR": "1965",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "Muddy Waters",
+      "TITLE": "Got My Mojo Working",
+      "TIME": "2:50",
+      "YEAR": "1999",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Roberta Flack",
+      "TITLE": "Killing Me Softly With His Song",
+      "TIME": "4:47",
+      "YEAR": "1973",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Clash",
+      "TITLE": "Complete Control",
+      "TIME": "3:13",
+      "YEAR": "1977",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "All You Need Is Love",
+      "TIME": "3:48",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Box Tops",
+      "TITLE": "The Letter",
+      "TIME": "2:00",
+      "YEAR": "1967",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "Highway 61 Revisited",
+      "TIME": "3:30",
+      "YEAR": "1965",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Righteous Brothers",
+      "TITLE": "Unchained Melody",
+      "TIME": "3:36",
+      "YEAR": "1966",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Bee Gees",
+      "TITLE": "How Deep Is Your Love",
+      "TIME": "4:00",
+      "YEAR": "1977",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Cream",
+      "TITLE": "White Room",
+      "TIME": "4:56",
+      "YEAR": "1968",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Depeche Mode",
+      "TITLE": "Personal Jesus",
+      "TIME": "5:48",
+      "YEAR": "1990",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "Bo Diddley",
+      "TITLE": "I'm a Man",
+      "TIME": "3:02",
+      "YEAR": "1957",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Jimi Hendrix",
+      "TITLE": "The Wind Cries Mary",
+      "TIME": "3:22",
+      "YEAR": "1972",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Who",
+      "TITLE": "I Can't Explain",
+      "TIME": "2:03",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Television",
+      "TITLE": "Marquee Moon",
+      "TIME": "10:40",
+      "YEAR": "1977",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Sam Cooke",
+      "TITLE": "(What A) Wonderful World",
+      "TIME": "2:05",
+      "YEAR": "1960",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Chuck Berry",
+      "TITLE": "Brown-Eyed Handsome Man",
+      "TIME": "2:18",
+      "YEAR": "1957",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Pink Floyd",
+      "TITLE": "Another Brick in the Wall (Part II)",
+      "TIME": "3:50",
+      "YEAR": "1980",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Radiohead",
+      "TITLE": "Fake Plastic Trees",
+      "TIME": "4:50",
+      "YEAR": "1995",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "Ray Charles",
+      "TITLE": "Hit the Road Jack",
+      "TIME": "1:59",
+      "YEAR": "1961",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "U2",
+      "TITLE": "Pride (In the Name of Love)",
+      "TIME": "3:46",
+      "YEAR": "1984",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "R.E.M.",
+      "TITLE": "Radio Free Europe [Original Hib-Tone Single]",
+      "TIME": "3:49",
+      "YEAR": "1988",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Elton John",
+      "TITLE": "Goodbye Yellow Brick Road",
+      "TIME": "3:12",
+      "YEAR": "1973",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Aaron Neville",
+      "TITLE": "Tell It Like It Is",
+      "TIME": "2:38",
+      "YEAR": "1993",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Verve",
+      "TITLE": "Bitter Sweet Symphony",
+      "TIME": "5:57",
+      "YEAR": "1997",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Allman Brothers Band",
+      "TITLE": "Whipping Post",
+      "TIME": "5:22",
+      "YEAR": "1969",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Ticket to Ride",
+      "TIME": "3:10",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Crosby, Stills, Nash & Young",
+      "TITLE": "Ohio",
+      "TIME": "3:06",
+      "YEAR": "1970",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Eric B. & Rakim",
+      "TITLE": "I Know You Got Soul",
+      "TIME": "4:44",
+      "YEAR": "1987",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Elton John",
+      "TITLE": "Tiny Dancer",
+      "TIME": "6:16",
+      "YEAR": "1992",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "The Police",
+      "TITLE": "Roxanne",
+      "TIME": "3:11",
+      "YEAR": "1979",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Temptations",
+      "TITLE": "Just My Imagination (Running Away With Me)",
+      "TIME": "3:50",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Four Tops",
+      "TITLE": "Baby I Need Your Lovin'",
+      "TIME": "2:44",
+      "YEAR": "2005",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Freda Payne",
+      "TITLE": "Band of Gold",
+      "TIME": "2:53",
+      "YEAR": "1984",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Five Stairsteps",
+      "TITLE": "O-O-H Child",
+      "TIME": "3:16",
+      "YEAR": "2001",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Lovin' Spoonful",
+      "TITLE": "Summer in the City",
+      "TIME": "2:37",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Elvis Presley",
+      "TITLE": "Can't Help Falling in Love",
+      "TIME": "3:00",
+      "YEAR": "1961",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Shangri-Las",
+      "TITLE": "Remember (Walking in the Sand)",
+      "TIME": "2:17",
+      "YEAR": "1987",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Big Star",
+      "TITLE": "Thirteen",
+      "TIME": "2:34",
+      "YEAR": "1978",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Blue Oyster Cult",
+      "TITLE": "(Don't Fear) the Reaper",
+      "TIME": "5:03",
+      "YEAR": "1976",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Lynyrd Skynyrd",
+      "TITLE": "Sweet Home Alabama",
+      "TIME": "4:44",
+      "YEAR": "1974",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Metallica",
+      "TITLE": "Enter Sandman",
+      "TIME": "5:31",
+      "YEAR": "1991",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "Paul Revere & The Raiders",
+      "TITLE": "Kicks",
+      "TIME": "2:47",
+      "YEAR": "2000",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Shirelles",
+      "TITLE": "Tonight's the Night",
+      "TIME": "2:02",
+      "YEAR": "1961",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Sly & The Family Stone",
+      "TITLE": "Thank You (Falettinme Be Mice Elf Agin)",
+      "TIME": "4:49",
+      "YEAR": "1970",
+      "GENRE": "Dance 1970s"
+    },
+    {
+      "ARTIST": "Eddie Cochran",
+      "TITLE": "C'Mon Everybody",
+      "TIME": "1:56",
+      "YEAR": "1959",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Bob Dylan",
+      "TITLE": "Visions of Johanna",
+      "TIME": "7:32",
+      "YEAR": "1985",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Carpenters",
+      "TITLE": "We've Only Just Begun",
+      "TIME": "3:05",
+      "YEAR": "1970",
+      "GENRE": "Easy"
+    },
+    {
+      "ARTIST": "R. Kelly",
+      "TITLE": "I Believe I Can Fly",
+      "TIME": "4:41",
+      "YEAR": "1996",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Nirvana",
+      "TITLE": "In Bloom",
+      "TIME": "4:15",
+      "YEAR": "2002",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Aerosmith",
+      "TITLE": "Sweet Emotion",
+      "TIME": "4:35",
+      "YEAR": "1991",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "Cream",
+      "TITLE": "Crossroads",
+      "TIME": "4:13",
+      "YEAR": "1994",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Pixies",
+      "TITLE": "Monkey Gone to Heaven",
+      "TIME": "2:55",
+      "YEAR": "1989",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Donna Summer",
+      "TITLE": "I Feel Love",
+      "TIME": "5:52",
+      "YEAR": "1977",
+      "GENRE": "Disco"
+    },
+    {
+      "ARTIST": "Bobbie Gentry",
+      "TITLE": "Ode to Billie Joe",
+      "TIME": "4:13",
+      "YEAR": "1967",
+      "GENRE": "Country"
+    },
+    {
+      "ARTIST": "Little Richard",
+      "TITLE": "The Girl Can't Help It",
+      "TIME": "2:33",
+      "YEAR": "1956",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Coasters",
+      "TITLE": "Young Blood",
+      "TIME": "2:25",
+      "YEAR": "1957",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Four Tops",
+      "TITLE": "I Can't Help Myself",
+      "TIME": "2:44",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Don Henley",
+      "TITLE": "Boys of Summer",
+      "TIME": "4:46",
+      "YEAR": "1984",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "N.W.A.",
+      "TITLE": "Fuck Tha Police",
+      "TIME": "5:45",
+      "YEAR": "1989",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Crosby, Stills & Nash",
+      "TITLE": "Suite: Judy Blue Eyes",
+      "TIME": "7:29",
+      "YEAR": "1971",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Dr. Dre",
+      "TITLE": "Nuthin' but a 'G' Thang",
+      "TIME": "4:00",
+      "YEAR": "1993",
+      "GENRE": "R&B 1990s"
+    },
+    {
+      "ARTIST": "The Isley Brothers",
+      "TITLE": "It's Your Thing",
+      "TIME": "2:47",
+      "YEAR": "1984",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Billy Joel",
+      "TITLE": "Piano Man",
+      "TIME": "5:37",
+      "YEAR": "1974",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Kinks",
+      "TITLE": "Lola",
+      "TIME": "4:08",
+      "YEAR": "1970",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Elvis Presley",
+      "TITLE": "Blue Suede Shoes",
+      "TIME": "1:59",
+      "YEAR": "1956",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Tumbling Dice",
+      "TIME": "3:39",
+      "YEAR": "1972",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Smiths",
+      "TITLE": "William, It Was Really Nothing",
+      "TIME": "2:09",
+      "YEAR": "1984",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Deep Purple",
+      "TITLE": "Smoke on the Water",
+      "TIME": "5:39",
+      "YEAR": "1973",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "U2",
+      "TITLE": "New Year's Day",
+      "TIME": "5:35",
+      "YEAR": "1983",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Mitch Ryder & The Detroit Wheels",
+      "TITLE": "Devil With a Blue Dress on - Good Golly Miss Molly",
+      "TIME": "3:30",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Solomon Burke",
+      "TITLE": "Everybody Needs Somebody to Love",
+      "TIME": "2:44",
+      "YEAR": "1964",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Clash",
+      "TITLE": "(White Man) in Hammersmith Palais",
+      "TIME": "4:01",
+      "YEAR": "1978",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Fats Domino",
+      "TITLE": "Ain't That a Shame",
+      "TIME": "2:26",
+      "YEAR": "1955",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Gladys Knight and The Pips",
+      "TITLE": "Midnight Train to Georgia",
+      "TIME": "4:37",
+      "YEAR": "1973",
+      "GENRE": "Dance 1970s"
+    },
+    {
+      "ARTIST": "Led Zeppelin",
+      "TITLE": "Ramble On",
+      "TIME": "4:29",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Wilson Pickett",
+      "TITLE": "Mustang Sally",
+      "TIME": "3:02",
+      "YEAR": "1966",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Beast of Burden",
+      "TIME": "4:27",
+      "YEAR": "1978",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Love",
+      "TITLE": "Alone Again Or",
+      "TIME": "3:16",
+      "YEAR": "1967",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Elvis Presley",
+      "TITLE": "Love Me Tender",
+      "TIME": "2:46",
+      "YEAR": "1956",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "The Stooges",
+      "TITLE": "I Wanna Be Your Dog",
+      "TIME": "3:10",
+      "YEAR": "1969",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "John Mellencamp",
+      "TITLE": "Pink Houses",
+      "TIME": "4:45",
+      "YEAR": "1983",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Salt 'N' Pepa",
+      "TITLE": "Push It",
+      "TIME": "4:35",
+      "YEAR": "1987",
+      "GENRE": "R&B 1980s"
+    },
+    {
+      "ARTIST": "The Dell-Vikings",
+      "TITLE": "Come Go With Me",
+      "TIME": "2:39",
+      "YEAR": "1957",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Little Richard",
+      "TITLE": "Keep a Knockin'",
+      "TIME": "2:22",
+      "YEAR": "1958",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Bob Marley & The Wailers",
+      "TITLE": "I Shot the Sheriff",
+      "TIME": "4:41",
+      "YEAR": "1975",
+      "GENRE": "Reggae"
+    },
+    {
+      "ARTIST": "Sonny & Cher",
+      "TITLE": "I Got U Babe",
+      "TIME": "3:09",
+      "YEAR": "1965",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Nirvana",
+      "TITLE": "Come as You Are",
+      "TIME": "3:37",
+      "YEAR": "1991",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "Toots & The Maytals",
+      "TITLE": "Pressure Drop",
+      "TIME": "3:44",
+      "YEAR": "1972",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Shangri-Las",
+      "TITLE": "Leader of the Pack",
+      "TIME": "2:51",
+      "YEAR": "1964",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Velvet Underground",
+      "TITLE": "Heroin",
+      "TIME": "7:12",
+      "YEAR": "2005",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Penny Lane",
+      "TIME": "3:01",
+      "YEAR": "1969",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Glen Campbell",
+      "TITLE": "By the Time I Get to Phoenix",
+      "TIME": "2:46",
+      "YEAR": "2001",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Chubby Checker",
+      "TITLE": "The Twist",
+      "TIME": "2:37",
+      "YEAR": "1961",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Sam Cooke",
+      "TITLE": "Cupid",
+      "TIME": "2:31",
+      "YEAR": "1960",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Guns N' Roses",
+      "TITLE": "Paradise City",
+      "TIME": "6:46",
+      "YEAR": "1989",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "George Harrison",
+      "TITLE": "My Sweet Lord",
+      "TIME": "4:38",
+      "YEAR": "1970",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Nirvana",
+      "TITLE": "All Apologies",
+      "TIME": "3:46",
+      "YEAR": "1993",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "Lloyd Price",
+      "TITLE": "Stagger Lee",
+      "TIME": "2:21",
+      "YEAR": "1959",
+      "GENRE": "Rock 1950s"
+    },
+    {
+      "ARTIST": "Ramones",
+      "TITLE": "Sheena Is a Punk Rocker",
+      "TIME": "2:48",
+      "YEAR": "1977",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Sam & Dave",
+      "TITLE": "Soul Man",
+      "TIME": "2:37",
+      "YEAR": "1967",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "Muddy Waters",
+      "TITLE": "Rollin' Stone",
+      "TIME": "3:08",
+      "YEAR": "1988",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Chiffons",
+      "TITLE": "One Fine Day",
+      "TIME": "2:09",
+      "YEAR": "1963",
+      "GENRE": "Easy"
+    },
+    {
+      "ARTIST": "Prince",
+      "TITLE": "Kiss",
+      "TIME": "3:47",
+      "YEAR": "1986",
+      "GENRE": "Dance 1980s"
+    },
+    {
+      "ARTIST": "The Staple Singers",
+      "TITLE": "Respect Yourself",
+      "TIME": "3:34",
+      "YEAR": "1990",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Beatles",
+      "TITLE": "Rain",
+      "TIME": "3:02",
+      "YEAR": "1988",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Four Tops",
+      "TITLE": "Standing in the Shadows of Love",
+      "TIME": "2:39",
+      "YEAR": "1992",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Cheap Trick",
+      "TITLE": "Surrender",
+      "TIME": "4:12",
+      "YEAR": "1978",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Del Shannon",
+      "TITLE": "Runaway",
+      "TIME": "2:18",
+      "YEAR": "1961",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "Guns N' Roses",
+      "TITLE": "Welcome to the Jungle",
+      "TIME": "4:32",
+      "YEAR": "1988",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "The Stooges",
+      "TITLE": "Search And Destroy",
+      "TIME": "3:29",
+      "YEAR": "1973",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Carole King",
+      "TITLE": "It's Too Late",
+      "TIME": "3:54",
+      "YEAR": "1971",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Joni Mitchell",
+      "TITLE": "Free Man in Paris",
+      "TIME": "3:03",
+      "YEAR": "1974",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Willie Nelson",
+      "TITLE": "On the Road Again",
+      "TIME": "2:33",
+      "YEAR": "1980",
+      "GENRE": "Country"
+    },
+    {
+      "ARTIST": "The Supremes",
+      "TITLE": "Where Did Our Love Go",
+      "TIME": "2:32",
+      "YEAR": "1964",
+      "GENRE": "Dance 1960s"
+    },
+    {
+      "ARTIST": "Aretha Franklin",
+      "TITLE": "Do Right Woman - Do Right Man",
+      "TIME": "3:13",
+      "YEAR": "2002",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Funkadelic",
+      "TITLE": "One Nation Under a Groove",
+      "TIME": "7:28",
+      "YEAR": "1978",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Beastie Boys",
+      "TITLE": "Sabotage",
+      "TIME": "2:59",
+      "YEAR": "1994",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "Foreigner",
+      "TITLE": "I Want to Know What Love Is",
+      "TIME": "5:00",
+      "YEAR": "1984",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Rick James",
+      "TITLE": "Super Freak",
+      "TIME": "3:25",
+      "YEAR": "1981",
+      "GENRE": "Dance 1980s"
+    },
+    {
+      "ARTIST": "Jefferson Airplane",
+      "TITLE": "White Rabbit",
+      "TIME": "2:32",
+      "YEAR": "1967",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "LaBelle",
+      "TITLE": "Lady Marmalade",
+      "TIME": "3:16",
+      "YEAR": "1975",
+      "GENRE": "Disco"
+    },
+    {
+      "ARTIST": "Van Morrison",
+      "TITLE": "Into the Mystic",
+      "TIME": "3:27",
+      "YEAR": "1970",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "David Bowie",
+      "TITLE": "Young Americans",
+      "TIME": "5:11",
+      "YEAR": "1975",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Alice Cooper",
+      "TITLE": "I'm Eighteen",
+      "TIME": "2:57",
+      "YEAR": "1971",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Cure",
+      "TITLE": "Just Like Heaven",
+      "TIME": "3:31",
+      "YEAR": "1987",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Joan Jett & The Blackhearts",
+      "TITLE": "I Love Rock 'N Roll",
+      "TIME": "2:55",
+      "YEAR": "1982",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Paul Simon",
+      "TITLE": "Graceland",
+      "TIME": "4:51",
+      "YEAR": "1986",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "The Smiths",
+      "TITLE": "How Soon Is Now?",
+      "TIME": "6:46",
+      "YEAR": "1984",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "The Drifters",
+      "TITLE": "Under the Boardwalk",
+      "TIME": "2:40",
+      "YEAR": "1964",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Fleetwood Mac",
+      "TITLE": "Rhiannon",
+      "TIME": "4:11",
+      "YEAR": "1975",
+      "GENRE": "Rock 1980s"
+    },
+    {
+      "ARTIST": "Gloria Gaynor",
+      "TITLE": "I Will Survive",
+      "TIME": "3:17",
+      "YEAR": "1979",
+      "GENRE": "Disco"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Brown Sugar",
+      "TIME": "3:46",
+      "YEAR": "1971",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Dusty Springfield",
+      "TITLE": "You Don't Have to Say You Love Me",
+      "TIME": "2:47",
+      "YEAR": "1966",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Jackson Browne",
+      "TITLE": "Running on Empty",
+      "TIME": "4:47",
+      "YEAR": "1996",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "The Crystals",
+      "TITLE": "Then He Kissed Me",
+      "TIME": "2:28",
+      "YEAR": "1963",
+      "GENRE": "Rock 1960s"
+    },
+    {
+      "ARTIST": "The Eagles",
+      "TITLE": "Desperado",
+      "TIME": "3:32",
+      "YEAR": "1972",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Smokey Robinson and The Miracles",
+      "TITLE": "Shop Around",
+      "TIME": "2:44",
+      "YEAR": "1983",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "The Rolling Stones",
+      "TITLE": "Miss You",
+      "TIME": "4:48",
+      "YEAR": "1978",
+      "GENRE": "TBD"
+    },
+    {
+      "ARTIST": "Weezer",
+      "TITLE": "Buddy Holly",
+      "TIME": "2:40",
+      "YEAR": "1994",
+      "GENRE": "Rock 1990s"
+    },
+    {
+      "ARTIST": "Brook Benton",
+      "TITLE": "Rainy Night in Georgia",
+      "TIME": "3:59",
+      "YEAR": "1970",
+      "GENRE": "Slow"
+    },
+    {
+      "ARTIST": "Thin Lizzy",
+      "TITLE": "The Boys Are Back in Town",
+      "TIME": "4:28",
+      "YEAR": "1976",
+      "GENRE": "Rock 1970s"
+    },
+    {
+      "ARTIST": "Boston",
+      "TITLE": "More Than a Feeling",
+      "TIME": "4:45",
+      "YEAR": "1976",
+      "GENRE": "Rock 1970s"
+    }
+  ]
+
