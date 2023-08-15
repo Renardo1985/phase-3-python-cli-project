@@ -10,15 +10,15 @@ import json # https://www.w3schools.com/python/python_json.asp
 print("🌱 Seeding DB...") 
 
 # Reset DB
-session.query(User).delete()
+#session.query(User).delete()
 session.query(Songs).delete()
 session.query(Playlist).delete()
 
-for _ in range(10):
+# for _ in range(10):
   
-    user = User(email = fake.email())
-    session.add(user)
-    session.commit()
+#     user = User(email = fake.email())
+#     session.add(user)
+#     session.commit()
     
 with open("songs.json") as data:
     song_data = json.load(data)

@@ -33,7 +33,7 @@ Users can search for songs or artists within the database, add songs to a playli
 The app presents a main menu with options:
 "Search song"
 "Display playlist"
-"Save playlist"
+"Create playlist"
 "Exit"
 
 Searching for Songs:
