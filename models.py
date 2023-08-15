@@ -1,11 +1,6 @@
 from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 from sqlalchemy import Column, Integer, String, DateTime, func, ForeignKey, Table, create_engine
-
-
-engine = create_engine('sqlite:///project_db.db')
-
-Session = sessionmaker(bind=engine)
-session = Session()
+from sessions import session
 
 Base = declarative_base()
 
@@ -36,7 +31,6 @@ class User(Base):
     def __repr__(self):
         return f"\n<User" \
             + f"id={self.id}, " \
-            + f"username={self.username}, " \
             + f"email={self.email}, " \
             + ">"
         

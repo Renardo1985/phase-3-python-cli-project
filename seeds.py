@@ -2,12 +2,9 @@ from models import User, Songs, Playlist
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from faker import Faker
+from sessions import session
 
 fake = Faker()
-engine = create_engine('sqlite:///project_db.db')
-Session = sessionmaker(bind=engine)
-session = Session()
-
 import json # https://www.w3schools.com/python/python_json.asp
 
 print("🌱 Seeding DB...") 
