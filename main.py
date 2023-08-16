@@ -1,7 +1,6 @@
 import re
 import sys
 import time
-
 from prettycli import red, blue, yellow, green, color
 from simple_term_menu import TerminalMenu
 from models import User, Playlist
@@ -121,8 +120,7 @@ class Main():
         if options[menu_index] == "❌ Delete playlist":
             pl = session.query(Playlist).get(self.current_playlist.id)
             
-            io = input(red(f"Delete {pl.name} Playlist  Y/N :"))         
-            
+            io = input(red(f"Delete {pl.name} Playlist  Y/N :"))            
             
             if  io == "y" or io == "Y":
                 session.delete(pl)
