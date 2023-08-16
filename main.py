@@ -1,5 +1,7 @@
 import re
+import sys
 import time
+
 from prettycli import red, blue, yellow, green, color
 from simple_term_menu import TerminalMenu
 from models import User, Playlist
@@ -19,6 +21,7 @@ class Main():
     
         if options[menu_index] == "Login":
             self.handle_login()
+            return 0
             
         if options[menu_index] == "Exit":
             self.exit()
@@ -35,6 +38,7 @@ class Main():
             print(f"Welcome {user.email}\n")                       
             self.current_user = user
             self.user_menu()
+            return 0
         else:
             print(yellow("Invalid email address!!, Please try Again!"))
             time.sleep(2)
@@ -43,7 +47,7 @@ class Main():
  
             
     def user_menu(self):        
-        self.clear_screen(44)
+        
         options = ["View Playlist", "New Playlist", "Logout" ]
         terminal_menu = TerminalMenu(options)
         menu_index = terminal_menu.show()
@@ -52,6 +56,7 @@ class Main():
         
         if options[menu_index] == "View Playlist":
             self.view_playlist()   
+            return 0
          
         elif options[menu_index] == "New Playlist":
             name = input(green("Enter Name of new playlist:\n\n"))
@@ -59,11 +64,17 @@ class Main():
                 #creates new playlist                 
                 pl = Playlist.create_playlist(name,self.current_user.id)
                 print (pl)
+            
+            
             else:
-                print(red("Please enter a valid playlist name\n"))          
+                print(red("Please enter a valid playlist name\n")) 
+            
+            self.user_menu()
+            return 0         
             
         elif options[menu_index] == "Logout":            
             self.start()  
+            return 0
             
  
             
@@ -73,6 +84,7 @@ class Main():
         
         if not playlists:
             print(yellow("You have no playlists\n"))
+            return 0
         
         else:        
             for pl in playlists:
@@ -84,8 +96,9 @@ class Main():
             menu_index = terminal_menu.show()
             
             if items[menu_index] == "❌ Exit":
-                self.user_menu()
-            
+               
+                self.user_menu() 
+                return 0           
             
             else:
                 print(green(f"✅ You selected {items[menu_index]} playlist\n"))
@@ -97,13 +110,43 @@ class Main():
         
     def playlist_menu(self):
         
-        options = ["Add Songs", "Remove Songs", "Rename playlist","Delete playlist"]
+        options = ["➕ Add Songs", "➖ Remove Songs","❌ Delete playlist","🔙 Back"]
         terminal_menu = TerminalMenu(options)
         menu_index = terminal_menu.show()
+        
+        if options[menu_index] == "➕ Add Songs":
+            pass
+        if options[menu_index] == "➖ Remove Songs":
+            pass
+        if options[menu_index] == "❌ Delete playlist":
+            pl = session.query(Playlist).get(self.current_playlist.id)
+            
+            io = input(red(f"Delete {pl.name} Playlist  Y/N :"))         
+            
+            
+            if  io == "y" or io == "Y":
+                session.delete(pl)
+                session.commit()
+                print(red("Deleted playlist...\n"))
+                self.playlist_menu()
+                return 0
+            if io == "n" or io == "N":
+                self.playlist_menu()
+                return 0
+            else:
+                print(red("Invalid Option... Aborting...\n"))
+                self.playlist_menu()
+                return 0
+            
+        #import ipdb; ipdb.set_trace()
+        if options[menu_index] == "🔙 Back":
+            self.view_playlist()
+            return 0
 
     
     def exit(self):
         print(red("GoodBye.."))
+        sys.exit(0)
         
     def clear_screen(self,lines):
         print("\n" * lines)

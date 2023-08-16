@@ -54,6 +54,11 @@ class Songs(Base):
             + f"genre={self.genre}, " \
             + f"year={self.year}, " \
             + ">"    
+    
+    @classmethod 
+    def find_song_by_title(cls,title):
+        song = session.query(Songs).filter(Songs.title == title).first()
+    
         
 class Playlist(Base): 
     __tablename__ = "playlists"  
