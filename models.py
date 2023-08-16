@@ -2,6 +2,10 @@ from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 from sqlalchemy import Column, Integer, String, DateTime, func, ForeignKey, Table, create_engine
 from sessions import session
 
+# this schema allows you to create users, songs, and playlists, and associate songs with playlists using the 
+# "playlist_songs_link" association table. Users can create playlists and add songs to them, and songs can 
+# belong to multiple playlists.
+
 Base = declarative_base()
 
 playlist_songs_link = Table(

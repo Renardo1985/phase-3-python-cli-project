@@ -9,13 +9,13 @@ from sessions import session
 class Main():
     
     current_user = None
+    
 
     def start(self):
         self.clear_screen(44)
         options = ["Login", "Exit"]
         terminal_menu = TerminalMenu(options)
         menu_index = terminal_menu.show()
-        print(f"you have selected {options[menu_index]}!")
     
         if options[menu_index] == "Login":
             self.handle_login()
@@ -41,6 +41,7 @@ class Main():
             self.start()
             
     def user_menu(self):
+        
         options = ["View Playlist", "New Playlist", "Exit" ]
         terminal_menu = TerminalMenu(options)
         menu_index = terminal_menu.show()
@@ -48,16 +49,28 @@ class Main():
         print(options[menu_index]) 
         
         if options[menu_index] == "View Playlist":
-            print(self.current_user.playlist)
+            self.view_playlist()                
             
+         
         if options[menu_index] == "New Playlist":
-            name = input("Enter Name of new playlist")            
+            name = input("Enter Name of new playlist:\n\n")            
             play = Playlist( name = name , user_id = self.current_user.id)
             session.add(play)
-            session.commit()
+            session.commit() 
             
-             
+        else:
+            self.exit()  
             
+    def view_playlist(self):    
+        playlists = self.current_user.playlist
+        items = []
+            
+        for pl in playlists:
+            items.append(pl.name) 
+                           
+        terminal_menu = TerminalMenu(items)
+        menu_index = terminal_menu.show()
+
     
     def exit(self):
         print(red("Bye.."))
