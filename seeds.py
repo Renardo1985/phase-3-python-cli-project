@@ -1,6 +1,4 @@
 from models import User, Songs, Playlist
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
 from faker import Faker
 from sessions import session
 

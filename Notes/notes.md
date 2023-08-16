@@ -31,9 +31,14 @@ Users can search for songs or artists within the database, add songs to a playli
 
 #### User story
 The app presents a main menu with options:
-"Search song"
-"Display playlist"
+
 "Create playlist"
+"View playlist"
+    Add songs to playlist
+      Search song to add.
+    Remove songs
+    Delete playlist
+
 "Exit"
 
 Searching for Songs:
@@ -46,9 +51,6 @@ The user is asked to enter the number of the song they want to add to their play
 Displaying Playlist:
 The app shows the current contents of the playlist, listing the title and artist of each song.
 
-Saving Playlist:
-The app saves the playlist to a text file named "playlist.txt" in the same directory as the app's files.
-
 Exiting the App:
 The app displays a message and terminates.
 
@@ -58,6 +60,7 @@ The app displays a message and terminates.
 
 class Songs:
 class Playlists:
+class users
 
 A Song class will represent individual songs with attributes like title, artist, and genre. Objects of the Song class can be used to store song information and interact with the song data.
 The Playlist class will manage the user's playlist. Objects of the Playlist class can store a list of Song objects and provide methods to add, display, and save songs.
@@ -68,7 +71,6 @@ Songs Table:
 id
 title
 artist
-genre
 
 Playlist Table:
 id

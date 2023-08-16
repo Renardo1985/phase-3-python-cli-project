@@ -1,5 +1,5 @@
-from sqlalchemy.orm import declarative_base, relationship, sessionmaker
-from sqlalchemy import Column, Integer, String, DateTime, func, ForeignKey, Table, create_engine
+from sqlalchemy.orm import declarative_base, relationship
+from sqlalchemy import Column, Integer, String, DateTime, func, ForeignKey, Table
 from sessions import session
 
 # this schema allows you to create users, songs, and playlists, and associate songs with playlists using the 
@@ -62,6 +62,25 @@ class Playlist(Base):
     created = Column(DateTime, server_default=func.now())
     user_id = Column(Integer, ForeignKey('users.id'))
     songs = relationship("Songs", secondary= playlist_songs_link)
+    
+    @classmethod
+    def create_playlist (cls,name,id):
+        pl = session.query(cls).filter(cls.name.like(name)).filter(cls.user_id.like(id)).first() 
+        if pl:
+            return ("You already have this playlist\n")
+        else:       
+            playlist = Playlist(name= name, user_id = id)
+            session.add(playlist)
+            session.commit()
+            return (f"You created {playlist.name} Playlist\n")
+            
+    
+    @classmethod    
+    def add_song (cls,id,song):
+        playlist = session.query(Playlist).get(id)
+        playlist.songs.append(song)
+        session.commit()
+        
     
     def __repr__(self):
         return f"\n<Playlist " \
