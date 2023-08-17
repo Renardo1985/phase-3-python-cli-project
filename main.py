@@ -3,7 +3,7 @@ import sys
 import time
 from prettycli import red, blue, yellow, green, color
 from simple_term_menu import TerminalMenu
-from models import User, Playlist
+from models import User, Playlist, Songs
 from sessions import session
 
 
@@ -51,7 +51,7 @@ class Main():
         terminal_menu = TerminalMenu(options)
         menu_index = terminal_menu.show()
         
-        print(options[menu_index]) 
+        # print(options[menu_index]) 
         
         if options[menu_index] == "View Playlist":
             self.view_playlist()   
@@ -100,7 +100,7 @@ class Main():
                 return 0           
             
             else:
-                print(green(f"✅ You selected {items[menu_index]} playlist\n"))
+                print(green(f"✅ You selected {items[menu_index]} playlist"))
                 playlist = session.query(Playlist).filter_by(user_id = self.current_user.id).filter_by(name=items[menu_index]).first()
                 self.current_playlist = playlist
                 self.playlist_menu()       
@@ -109,12 +109,43 @@ class Main():
         
     def playlist_menu(self):
         
-        options = ["➕ Add Songs", "➖ Remove Songs","❌ Delete playlist","🔙 Back"]
+        self.clear_screen(50)
+        print(green(f"--- {self.current_playlist.name} ---\n")+ "Tracks:")
+        if self.current_playlist.songs:
+            print(f"{self.current_playlist.songs}\n")
+        else:
+            print(yellow("No songs added\n"))
+        
+        options = ["➕ Add Song", "➖ Remove Song","❌ Delete playlist","🔙 Back"]
         terminal_menu = TerminalMenu(options)
         menu_index = terminal_menu.show()
         
         if options[menu_index] == "➕ Add Songs":
-            pass
+            
+            songs = session.query(Songs).all()
+            print(songs)
+            title = input(green("\nEnter title: "))
+            if title:
+                song = Songs.find_song_by_title(title)
+                print(song)
+            
+            print(yellow("-- Add Song? --"))
+            options = ["✅ Yes","❌ No"]
+            terminal_menu = TerminalMenu(options)
+            menu_index = terminal_menu.show()
+            
+            if options[menu_index] == "✅ Yes":
+                self.current_playlist.songs.append(song)
+                session.commit()
+                
+                print(green("\nSong added!..."))
+                self.playlist_menu() 
+                return 0  
+                
+            if options[menu_index] == "❌ No":
+                self.playlist_menu()  
+                return 0  
+            
         if options[menu_index] == "➖ Remove Songs":
             pass
         if options[menu_index] == "❌ Delete playlist":

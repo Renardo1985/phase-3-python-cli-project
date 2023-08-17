@@ -1,4 +1,5 @@
 from sqlalchemy.orm import declarative_base, relationship
+from prettycli import red, blue, yellow, green, color
 from sqlalchemy import Column, Integer, String, DateTime, func, ForeignKey, Table
 from sessions import session
 
@@ -47,17 +48,14 @@ class Songs(Base):
     year = Column(String)
     
     def __repr__(self):
-        return f"\n<Songs " \
-            + f"id={self.id}, " \
-            + f"title={self.title}, " \
-            + f"artist={self.artist}, " \
-            + f"genre={self.genre}, " \
-            + f"year={self.year}, " \
-            + ">"    
+        return f"\n{self.id} --"\
+            + green(f"Title: {self.title} --")\
+            + f"Artist: {self.artist}"
     
     @classmethod 
     def find_song_by_title(cls,title):
         song = session.query(Songs).filter(Songs.title == title).first()
+        return song
     
         
 class Playlist(Base): 
