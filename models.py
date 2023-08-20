@@ -2,6 +2,7 @@ from sqlalchemy.orm import declarative_base, relationship
 from prettycli import red, blue, yellow, green, color
 from sqlalchemy import Column, Integer, String, DateTime, func, ForeignKey, Table
 from sessions import session
+import string
 
 # this schema allows you to create users, songs, and playlists, and associate songs with playlists using the 
 # "playlist_songs_link" association table. Users can create playlists and add songs to them, and songs can 
@@ -54,9 +55,14 @@ class Songs(Base):
     
     @classmethod 
     def find_song_by_title(cls,title):
-        song = session.query(Songs).filter(Songs.title == title).first()
+        song = session.query(cls).filter(cls.title.ilike(title)).first()
         return song
     
+    @classmethod
+    def songs_by_artist(cls,artist):
+        song = session.query(cls).filter(cls.artist.ilike(artist)).all()
+        return song
+        
         
 class Playlist(Base): 
     __tablename__ = "playlists"  
@@ -76,13 +82,6 @@ class Playlist(Base):
             session.add(playlist)
             session.commit()
             return (f"You created {playlist.name} Playlist\n")
-            
-    
-    @classmethod    
-    def add_song (cls,id,song):
-        playlist = session.query(Playlist).get(id)
-        playlist.songs.append(song)
-        session.commit()
         
     
     def __repr__(self):

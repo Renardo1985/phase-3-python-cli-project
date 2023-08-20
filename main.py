@@ -14,17 +14,12 @@ class Main():
 
     def start(self):
         self.clear_screen(44)
-        options = ["Login", "Exit"]
-        terminal_menu = TerminalMenu(options)
-        menu_index = terminal_menu.show()
-    
-        if options[menu_index] == "Login":
+        options = self.terminal_cli(["Login","Exit"])    
+        if options == "Login":
             self.handle_login()
-            return 0
-            
-        if options[menu_index] == "Exit":
-            self.exit()
-            
+            return 0            
+        if options == "Exit":
+            self.exit()           
      
                        
     def handle_login(self):
@@ -47,7 +42,7 @@ class Main():
             
     def user_menu(self):        
         
-        options = ["View Playlist", "New Playlist", "Logout" ]
+        options = ["View Playlist", "New Playlist", "Logout", "Exit" ]
         terminal_menu = TerminalMenu(options)
         menu_index = terminal_menu.show()
         
@@ -57,13 +52,12 @@ class Main():
             self.view_playlist()   
             return 0
          
-        elif options[menu_index] == "New Playlist":
+        if options[menu_index] == "New Playlist":
             name = input(green("Enter Name of new playlist:\n\n"))
             if name:
                 #creates new playlist                 
                 pl = Playlist.create_playlist(name,self.current_user.id)
-                print (pl)
-            
+                print (pl)         
             
             else:
                 print(red("Please enter a valid playlist name\n")) 
@@ -71,9 +65,14 @@ class Main():
             self.user_menu()
             return 0         
             
-        elif options[menu_index] == "Logout":            
+        if options[menu_index] == "Logout":            
             self.start()  
             return 0
+        
+        if options[menu_index] == "Exit":
+            self.exit()
+        
+        
             
  
             
@@ -89,12 +88,12 @@ class Main():
             for pl in playlists:
                 items.append(pl.name)
                  
-            items.append("❌ Exit")   
+            items.append("🔙 Back")   
                        
             terminal_menu = TerminalMenu(items)
             menu_index = terminal_menu.show()
             
-            if items[menu_index] == "❌ Exit":
+            if items[menu_index] == "🔙 Back":
                
                 self.user_menu() 
                 return 0           
@@ -120,31 +119,55 @@ class Main():
         terminal_menu = TerminalMenu(options)
         menu_index = terminal_menu.show()
         
-        if options[menu_index] == "➕ Add Songs":
+        if options[menu_index] == "➕ Add Song":
             
-            songs = session.query(Songs).all()
-            print(songs)
-            title = input(green("\nEnter title: "))
-            if title:
-                song = Songs.find_song_by_title(title)
-                print(song)
+            all_tracks = session.query(Songs).all()
+            print(all_tracks)
             
-            print(yellow("-- Add Song? --"))
-            options = ["✅ Yes","❌ No"]
+            options = ["Search Track","Search Artist","🔙 Back"]
             terminal_menu = TerminalMenu(options)
             menu_index = terminal_menu.show()
             
-            if options[menu_index] == "✅ Yes":
-                self.current_playlist.songs.append(song)
-                session.commit()
+            
+            
+            
+            title = input(green("\nEnter title: "))
+            
+            if title:
+                song = Songs.find_song_by_title(title) 
+                 
+                if song is None:
+                    print(red("Track Not found!")) 
+                    time.sleep(2)
+                    self.playlist_menu()  
+                    return 0
                 
-                print(green("\nSong added!..."))
-                self.playlist_menu() 
-                return 0  
+                if song: 
+                    print(song)               
+                    print(yellow("-- Add Song? --"))
+                    options = ["✅ Yes","❌ No"]
+                    terminal_menu = TerminalMenu(options)
+                    menu_index = terminal_menu.show()
+            
+                    if options[menu_index] == "✅ Yes":
+                        self.current_playlist.songs.append(song)
+                        session.commit()
                 
-            if options[menu_index] == "❌ No":
+                        print(green("\nSong added!..."))
+                        self.playlist_menu() 
+                        return 0 
+                
+                    if options[menu_index] == "❌ No":
+                        self.playlist_menu()  
+                        return 0 
+            
+            else:
+                print(red("Enter valid Title"))
+                time.sleep(2)
                 self.playlist_menu()  
-                return 0  
+                return 0
+                
+             
             
         if options[menu_index] == "➖ Remove Songs":
             pass
@@ -157,7 +180,7 @@ class Main():
                 session.delete(pl)
                 session.commit()
                 print(red("Deleted playlist...\n"))
-                self.playlist_menu()
+                self.user_menu()
                 return 0
             if io == "n" or io == "N":
                 self.playlist_menu()
@@ -167,7 +190,7 @@ class Main():
                 self.playlist_menu()
                 return 0
             
-        #import ipdb; ipdb.set_trace()
+       
         if options[menu_index] == "🔙 Back":
             self.view_playlist()
             return 0
@@ -179,6 +202,12 @@ class Main():
         
     def clear_screen(self,lines):
         print("\n" * lines)
+        
+    def terminal_cli(self,options):
+        terminal_menu = TerminalMenu(options)
+        menu_index = terminal_menu.show()
+        return options[menu_index]
+
         
 
 app = Main()
