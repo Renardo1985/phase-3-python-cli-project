@@ -49,9 +49,11 @@ class Songs(Base):
     year = Column(String)
     
     def __repr__(self):
-        return f"\n{self.id} --"\
-            + green(f"Title: {self.title} --")\
-            + f"Artist: {self.artist}"
+        return green(f"\n--Title--: {self.title}") + f" --Artist-- : {self.artist}"
+    
+    def __str__(self):
+        return "--Title--:" + self.title + " --Artist--: " + self.artist
+    
     
     @classmethod 
     def find_song_by_title(cls,title):
@@ -81,8 +83,7 @@ class Playlist(Base):
             playlist = Playlist(name= name, user_id = id)
             session.add(playlist)
             session.commit()
-            return (f"You created {playlist.name} Playlist\n")
-        
+            return (f"You created {playlist.name} Playlist\n")  
     
     def __repr__(self):
         return f"\n<Playlist " \
