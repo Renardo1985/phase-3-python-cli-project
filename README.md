@@ -15,15 +15,15 @@ The main idea is to create a simple Command-Line Interface (CLI) App that allows
 </ul>
 
 ## Getting Started
-Clone the repo
+### Clone the repo
 ```bash
 git@github.com:Renardo1985/phase-3-python-cli-project.git
 ```
-## RUN 
+### RUN 
 ### `pipenv install` run from directory
-## THEN
+### THEN
 ### `pipenv shell` then run `python3 main.py` from directory
-## OR 
+### OR 
 ### `pipenv run python3 main.py` from directory
 
 
