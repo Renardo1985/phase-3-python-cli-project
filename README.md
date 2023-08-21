@@ -7,11 +7,11 @@ The main idea is to create a simple Command-Line Interface (CLI) App that allows
 
 ## Technologies
 <ul>
-    <li>React</li>
-    <li>JavaScript</li>
-    <li>HTML</li>
-    <li>CSS</li>   
-    <li>Bootstrap</li>
+    <li>Python</li>
+    <li>SQLalchemy</li>
+    <li>Alembic</li>
+    <li>Simple-term-menu</li>   
+    <li>Pretty-CLI</li>
 </ul>
 
 ## Getting Started
