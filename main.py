@@ -263,11 +263,8 @@ class Main():
                 self.current_playlist.songs.remove(del_this)
                 session.commit()
                 print("Removed")
-                        
-                 
-                
-                 
-                import ipdb; ipdb.set_trace()
+ 
+                # import ipdb; ipdb.set_trace()
                 self.playlist_menu()
                  
                 

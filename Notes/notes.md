@@ -45,9 +45,6 @@ Searching for Songs:
 The app prompts the user to enter a song or artist name they want to search for.
 The app searches the music database for songs or artists that match the query and displays the search results.
 
-Adding Songs to Playlist:
-The user is asked to enter the number of the song they want to add to their playlist
-
 Displaying Playlist:
 The app shows the current contents of the playlist, listing the title and artist of each song.
 
