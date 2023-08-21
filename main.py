@@ -24,7 +24,7 @@ class Main():
                        
     def handle_login(self):
         email = input("Enter Email: ")
-        regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
+        regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b' #email verification
         if re.fullmatch(regex, email):            
             user = User.find_or_create_by(email)
             self.clear_screen(44) 
@@ -50,9 +50,8 @@ class Main():
          
         if options == "New Playlist":
             name = input(green("Enter Name of new playlist:\n\n"))
-            if name:
-                #creates new playlist                 
-                pl = Playlist.create_playlist(name,self.current_user.id)
+            if name:                 
+                pl = Playlist.create_playlist(name,self.current_user.id) #creates new playlist
                 print (pl)         
             
             else:

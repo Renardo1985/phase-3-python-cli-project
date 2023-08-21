@@ -19,10 +19,13 @@ Clone the repo
 ```bash
 git@github.com:Renardo1985/phase-3-python-cli-project.git
 ```
-
+## RUN 
 ### `pipenv install` run from directory
-### `pipenv shell` run from directory
-### `python3 main.py` run from directory
+## THEN
+### `pipenv shell` then run `python3 main.py` from directory
+## OR 
+### `pipenv run python3 main.py` from directory
+
 
 
 ## Video Walkthrough 
