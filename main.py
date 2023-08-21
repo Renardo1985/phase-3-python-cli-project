@@ -1,6 +1,7 @@
 import re
 import sys
 import time
+# import getpass
 from prettycli import red, blue, yellow, green, color
 from simple_term_menu import TerminalMenu
 from models import User, Playlist, Songs
@@ -30,11 +31,21 @@ class Main():
         regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b' #email verification
         if re.fullmatch(regex, email):            
             password = input("Enter Password: ")
-            User.register_user(email,password)
-            user = session.query(User).filter(User.email == email).first()
-            print(f"Created {user.email}")
+            
+            if password:
+                User.register_user(email,password)
+                user = session.query(User).filter(User.email == email).first()
+                print(f"Created {user.email}")
+                time.sleep(2)
+                self.handle_login() 
+            else:
+                print(red("You must enter a password!"))
+                time.sleep(2)
+                self.start() 
+        else:
+            print(yellow("Invalid email address!!, Please try Again!"))
             time.sleep(2)
-            self.handle_login()          
+            self.start()        
             
             
                        
@@ -55,7 +66,8 @@ class Main():
                     self.user_menu()
                     return 0
                 else:
-                    print("Authentication failed.")
+                    print(red("Authentication failed."))
+                    time.sleep(2)
                     self.start()
             else:
                 print(red("User does not exist."))
@@ -70,8 +82,7 @@ class Main():
             
     def user_menu(self):        
         
-        options = self.terminal_cli(["View Playlist", "New Playlist", "Logout", "Exit" ]) 
-        
+        options = self.terminal_cli(["View Playlist", "New Playlist", "Logout", "Exit" ])         
         if options == "View Playlist":
             self.view_playlist()   
             return 0
@@ -265,40 +276,24 @@ class Main():
             
     def remove_song(self):
        
-        track_list = self.current_playlist.songs
-        
+        track_list = self.current_playlist.songs        
         if track_list:
             tracks = []
             for t in track_list:
-                tracks.append(t.title)
-        
-            #import ipdb; ipdb.set_trace()
-            tracks.append("Remove all")
-            selected_track = self.terminal_cli(tracks)
+                tracks.append(str(t))
             
-            
-            if selected_track == "Remove all":
-                self.current_playlist.songs.clear()
-                session.commit()
-                print("All Tracks Removed")
-                time.sleep(2)
-                self.playlist_menu()
-            
-            else:
-                for ele in track_list:
-                    if ele.title == selected_track:
-                        del_this = session.query(Songs).get(ele.id)
-
+            terminal_menu = TerminalMenu(tracks,multi_select=True,show_multi_select_hint=True,)
+            selected_track = terminal_menu.show()            
+    
+            for i in selected_track:
+                del_this = track_list[i]
                 self.current_playlist.songs.remove(del_this)
                 session.commit()
-                print("Removed")
-                time.sleep(2)
-                # import ipdb; ipdb.set_trace()
-                self.playlist_menu()
-                 
-                
-
-           
+            
+            print(yellow("Track(s) Removed"))  
+            time.sleep(2)
+            self.playlist_menu()
+            
     def exit(self):
         print(red("GoodBye.."))
         sys.exit(0)
