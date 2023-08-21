@@ -14,25 +14,53 @@ class Main():
 
     def start(self):
         self.clear_screen(44)
-        options = self.terminal_cli(["Login","Exit"])    
+        options = self.terminal_cli(["Login","Register","Exit"])    
         if options == "Login":
             self.handle_login()
-            return 0            
+            return 0
+        if options == "Register":
+            self.reg_user()
+            return 0           
         if options == "Exit":
             self.exit()           
-     
-                       
-    def handle_login(self):
+    
+    def reg_user(self):
+        print(blue("Register New User\n"))
         email = input("Enter Email: ")
         regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b' #email verification
         if re.fullmatch(regex, email):            
-            user = User.find_or_create_by(email)
-            self.clear_screen(44) 
+            password = input("Enter Password: ")
+            User.register_user(email,password)
+            user = session.query(User).filter(User.email == email).first()
+            print(f"Created {user.email}")
+            time.sleep(2)
+            self.handle_login()          
             
-            print(f"Welcome {user.email}\n")                       
-            self.current_user = user
-            self.user_menu()
-            return 0
+            
+                       
+    def handle_login(self):
+        self.clear_screen(44)
+        print(blue("Login\n"))
+        email = input("Enter Email: ")
+        regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b' #email verification
+        if re.fullmatch(regex, email):            
+            user = User.find_user(email)
+            if user:
+                pass_input = input("Enter Password: ")
+                auth = User.authenticate_user(email,pass_input)
+                if auth:
+                    self.clear_screen(44) 
+                    print(f"Welcome {auth.email}\n")                       
+                    self.current_user = auth
+                    self.user_menu()
+                    return 0
+                else:
+                    print("Authentication failed.")
+                    self.start()
+            else:
+                print(red("User does not exist."))
+                time.sleep(2)
+                self.start()
         else:
             print(yellow("Invalid email address!!, Please try Again!"))
             time.sleep(2)
@@ -73,7 +101,8 @@ class Main():
         
         if not playlists:
             print(yellow("You have no playlists\n"))
-            return 0
+            time.sleep(1)
+            self.user_menu()
         
         else:        
             for pl in playlists:
@@ -251,7 +280,8 @@ class Main():
             if selected_track == "Remove all":
                 self.current_playlist.songs.clear()
                 session.commit()
-                
+                print("All Tracks Removed")
+                time.sleep(2)
                 self.playlist_menu()
             
             else:
@@ -262,7 +292,7 @@ class Main():
                 self.current_playlist.songs.remove(del_this)
                 session.commit()
                 print("Removed")
- 
+                time.sleep(2)
                 # import ipdb; ipdb.set_trace()
                 self.playlist_menu()
                  

@@ -39,3 +39,4 @@ https://github.com/codetombomb/acc-fs-code-practice-cli-demo/blob/main/lib/cli.p
 https://github.com/codetombomb/acc-fs-code-practice-seeding-db/blob/main/models.py
 https://furry-shrimp-4f0.notion.site/DB-Seeds-Cheat-Sheet-for-SQLAlchemy-Alembic-CLI-fee13f02dd68491bb338aac2e9d4f41a
 https://github.com/codetombomb/acc-fs-code-practice-creating-migrations
+https://medium.com/@moinahmedbgbn/a-basic-login-system-with-python-746a64dc88d6

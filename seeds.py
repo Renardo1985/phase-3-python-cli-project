@@ -10,7 +10,7 @@ print("🌱 Seeding DB...")
 # Reset DB
 #session.query(User).delete()
 session.query(Songs).delete()
-session.query(Playlist).delete()
+#session.query(Playlist).delete()
 
 # for _ in range(10):
   
@@ -27,13 +27,13 @@ for data in song_data:
     session.commit()
     
     
-play = Playlist( name = "hip", user_id = 7)
-session.add(play)
-session.commit()
+# play = Playlist( name = "hip", user_id = 7)
+# session.add(play)
+# session.commit()
 
-play1 = Playlist( name = "rock", user_id = 5)
-session.add(play1)
-session.commit()
+# play1 = Playlist( name = "rock", user_id = 5)
+# session.add(play1)
+# session.commit()
 
 print("✅ Done seeding!")
 

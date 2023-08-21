@@ -1,7 +1,9 @@
 from sqlalchemy.orm import declarative_base, relationship
 from prettycli import red, blue, yellow, green, color
 from sqlalchemy import Column, Integer, String, DateTime, func, ForeignKey, Table
+from hashlib import sha256
 from sessions import session
+
 import string
 
 # this schema allows you to create users, songs, and playlists, and associate songs with playlists using the 
@@ -20,19 +22,43 @@ playlist_songs_link = Table(
 class User(Base):
     __tablename__ = "users"
     id = Column(Integer,primary_key=True) 
-    email = Column(String,unique=True)   
+    email = Column(String,unique=True) 
+    hashed_password = Column(String)  
     playlist = relationship("Playlist", backref="user") 
     
     @classmethod 
-    def find_or_create_by(cls, email):
+    def find_user(cls, email):
         user = session.query(cls).filter(cls.email.like(email)).first()
         if user:
             return user
-        else:
-            user = User(email=email)
-            session.add(user)
-            session.commit()
+        # else:
+        #     user = User(email=email)
+        #     session.add(user)
+        #     session.commit()
+        #     return user
+    
+    @classmethod    
+    def register_user(cls,email,password):
+        hashed_password = cls.hash_password(password)        
+        user = User(email=email, hashed_password=hashed_password)
+        session.add(user)
+        session.commit()
+    
+    @classmethod
+    def hash_password(cls,password):
+        return sha256(password.encode()).hexdigest()
+    
+    @classmethod
+    def verify_password(cls, plain_password, hashed_password):
+        return cls.hash_password(plain_password) == hashed_password
+
+    @classmethod
+    def authenticate_user(cls,email,password):
+        user = session.query(User).filter(User.email == email).first()
+        if user and cls.verify_password(password, user.hashed_password):
             return user
+          
+    
         
     def __repr__(self):
         return f"\n<User" \
