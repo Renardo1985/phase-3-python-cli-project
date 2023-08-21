@@ -82,6 +82,7 @@ class Main():
             
     def user_menu(self):        
         
+        self.clear_screen(50)
         options = self.terminal_cli(["View Playlist", "New Playlist", "Logout", "Exit" ])         
         if options == "View Playlist":
             self.view_playlist()   
@@ -108,7 +109,7 @@ class Main():
             
     def view_playlist(self):    
         items = []
-        playlists = self.current_user.playlist        
+        playlists = self.current_user.playlist #all playlists for current user   
         
         if not playlists:
             print(yellow("You have no playlists\n"))
@@ -147,7 +148,7 @@ class Main():
         options1 = self.terminal_cli(["➕ Add Song", "➖ Remove Song","❌ Delete playlist","🔙 Back"])
                 
         if options1 == "➕ Add Song":
-            self.add_songs()    
+            self.add_songs_menu()    
             
         if options1 == "➖ Remove Song":
             self.remove_song()
@@ -162,6 +163,7 @@ class Main():
             if  io == "✅ Yes":
                 session.delete(pl)
                 session.commit()
+                self.current_playlist = None
                 print(red("Deleted playlist...\n"))
                 self.user_menu()
                 return 0
@@ -170,129 +172,118 @@ class Main():
                 self.playlist_menu()
                 return 0            
        
-        if options1 == "🔙 Back":
+        if options1 == "🔙 Back" or options1 is None:
             self.view_playlist()
             return 0
 
-    def add_songs(self):
+    def add_songs_menu(self):
         
         all_tracks = session.query(Songs).all()
         print(all_tracks) 
         print("\n")
             
-        options = self.terminal_cli(["Search Track","Search Artist","🔙 Back"])
+        options = self.terminal_cli(["Search Title","Search Artist","🔙 Back"])
         
-        if options == "Search Track":            
+        if options == "Search Title":            
             title = input(green("\nEnter title: "))
             
             if title:
-                song = Songs.find_song_by_title(title) 
-                 
-                if song is None:
-                    print(red("Track Not found!")) 
-                    time.sleep(2)
-                    self.playlist_menu()  
-                    return 0
-                
-                if song: 
-                    print(song)               
-                    print(yellow("-- Add Song? --"))
-                    opt = self.terminal_cli(["✅ Yes","❌ No"])
-                                
-                    if opt == "✅ Yes":
-                        self.current_playlist.songs.append(song)
-                        session.commit()
-                
-                        print(green(f"\n{song.title} added!..."))
-                        time.sleep(2)
-                        self.playlist_menu() 
-                        return 0 
-                
-                    if opt == "❌ No":
-                        self.playlist_menu()  
-                        return 0 
+                songs = Songs.find_song_by_title(title) 
+                self.add_songs(songs)
             
             else:
                 print(red("Enter valid Title"))
                 time.sleep(2)
                 self.playlist_menu()  
                 return 0
-            
+        
         if options == "Search Artist":   
             artist = input(green("\nEnter Artist: "))
             
             if artist:
-                s_list = Songs.songs_by_artist(artist) 
-                
-                if s_list is None:
-                    print(red("Track Not found!")) 
-                    time.sleep(2)
-                    self.playlist_menu()  
-                    return 0
-                
-                if s_list: 
-                    print(s_list) 
-                    print("\n")  
-                    opt = self.terminal_cli(["Add All","Add One"])
-                                
-                    if opt == "Add All":
-                        for track in s_list:
-                            self.current_playlist.songs.append(track)
-                         
-                        session.commit()
-                
-                        print(green("\nSongs added!..."))
-                        time.sleep(2)
-                        self.playlist_menu() 
-                        return 0  
-                
-                    if opt == "Add One":
-                        t_name = []
-                        for tracks in s_list:
-                            t_name.append(tracks.title)
-                    
-                    opt = self.terminal_cli(t_name)
-                                        
-                    song = Songs.find_song_by_title(opt) 
-                    self.current_playlist.songs.append(song)
-                    session.commit()
-                
-                    print(green(f"\n{song.title} added!..."))
-                    time.sleep(2)
-                    self.playlist_menu() 
-                    return 0 
+                songs = Songs.songs_by_artist(artist) 
+                self.add_songs(songs)
             
             else:
-                print(red("Enter valid Artist"))
+                print(red("Enter valid artist"))
                 time.sleep(2)
                 self.playlist_menu()  
                 return 0
         
-        if options == "🔙 Back": 
+        if options == "🔙 Back" or options is None: 
             self.playlist_menu()
             return 0
         
+    def add_songs(self,song_list):
+         
+        if song_list: 
+            tracks = []
+            for track in song_list:
+                tracks.append(str(track))
             
+            terminal_menu = TerminalMenu(tracks,multi_select=True,show_multi_select_hint=True)
+            selected_track = terminal_menu.show() 
+                    
+            if selected_track: 
+                for index in selected_track:
+                    self.current_playlist.songs.append(song_list[index])
+                        
+                print(green("\nSong(s) added!..."))
+                session.commit()
+                time.sleep(2)
+                self.playlist_menu() 
+                return 0 
+                
+            else:
+                print(red("No selection"))
+                self.playlist_menu()  
+                return 0 
+                    
+        else:
+            print(red("Track Not found!")) 
+            time.sleep(2)
+            self.playlist_menu()  
+            return 0
+            
+                   
             
     def remove_song(self):
        
         track_list = self.current_playlist.songs        
+        
         if track_list:
             tracks = []
             for t in track_list:
                 tracks.append(str(t))
             
-            terminal_menu = TerminalMenu(tracks,multi_select=True,show_multi_select_hint=True,)
-            selected_track = terminal_menu.show()            
-    
-            for i in selected_track:
-                del_this = track_list[i]
-                self.current_playlist.songs.remove(del_this)
-                session.commit()
-            
-            print(yellow("Track(s) Removed"))  
+            terminal_menu = TerminalMenu(tracks,multi_select=True,show_multi_select_hint=True)
+            selected_track = terminal_menu.show() 
+
+            if selected_track:                
+                del_this = []
+                # this part took me hours to figure out....
+                for i in selected_track:
+                    del_this.append(track_list[i])
+                    # print(del_this)
+ 
+                for song in del_this:
+                    self.current_playlist.songs.remove(song)
+                
+                print(yellow("Track(s) Removed"))
+                session.commit()  
+                time.sleep(2)
+                self.playlist_menu()
+                
+            else:
+                print(red("No selection"))  
+                time.sleep(2)
+                self.playlist_menu()
+                return 0
+        else:
+            print(red("\nNo tracks"))
             time.sleep(2)
             self.playlist_menu()
+                
             
     def exit(self):
         print(red("GoodBye.."))

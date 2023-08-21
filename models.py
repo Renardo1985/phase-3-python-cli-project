@@ -83,12 +83,12 @@ class Songs(Base):
     
     @classmethod 
     def find_song_by_title(cls,title):
-        song = session.query(cls).filter(cls.title.ilike(title)).first()
+        song = session.query(cls).filter(cls.title.ilike(f"%{title}%")).all()
         return song
     
     @classmethod
     def songs_by_artist(cls,artist):
-        song = session.query(cls).filter(cls.artist.ilike(artist)).all()
+        song = session.query(cls).filter(cls.artist.ilike(f"%{artist}%")).all()
         return song
         
         

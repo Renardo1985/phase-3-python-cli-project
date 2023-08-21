@@ -41,3 +41,4 @@ https://furry-shrimp-4f0.notion.site/DB-Seeds-Cheat-Sheet-for-SQLAlchemy-Alembic
 https://github.com/codetombomb/acc-fs-code-practice-creating-migrations
 https://medium.com/@moinahmedbgbn/a-basic-login-system-with-python-746a64dc88d6
 https://pypi.org/project/simple-term-menu/
+https://emojipedia.org/
