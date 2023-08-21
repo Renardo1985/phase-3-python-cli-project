@@ -25,12 +25,6 @@ git@github.com:Renardo1985/phase-3-python-cli-project.git
 ### `python3 main.py` run from directory
 
 
-
-
-
-
-The server with run on [http://localhost:3001](http://localhost:3001)
-
 ## Video Walkthrough 
 
 
