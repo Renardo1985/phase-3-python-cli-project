@@ -16,20 +16,22 @@ class Main():
     def start(self):
         self.clear_screen(44)
         options = self.terminal_cli(["Login","Register","Exit"])    
+        
         if options == "Login":
             self.handle_login()
             return 0
         if options == "Register":
             self.reg_user()
             return 0           
-        if options == "Exit":
-            self.exit()           
+        if options == "Exit" or options is None:
+            self.exit() 
+        
+                      
     
     def reg_user(self):
         print(blue("Register New User\n"))
         email = input("Enter Email: ")
-        regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b' #email verification
-        if re.fullmatch(regex, email):            
+        if self.verify_email(email):            
             password = input("Enter Password: ")
             
             if password:
@@ -50,11 +52,10 @@ class Main():
             
                        
     def handle_login(self):
-        self.clear_screen(44)
+        self.clear_screen(2)
         print(blue("Login\n"))
         email = input("Enter Email: ")
-        regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b' #email verification
-        if re.fullmatch(regex, email):            
+        if self.verify_email(email):            
             user = User.find_user(email)
             if user:
                 pass_input = input("Enter Password: ")
@@ -63,6 +64,7 @@ class Main():
                     self.clear_screen(44) 
                     print(f"Welcome {auth.email}\n")                       
                     self.current_user = auth
+                    time.sleep(2)
                     self.user_menu()
                     return 0
                 else:
@@ -82,8 +84,8 @@ class Main():
             
     def user_menu(self):        
         
-        self.clear_screen(50)
-        options = self.terminal_cli(["View Playlist", "New Playlist", "Logout", "Exit" ])         
+        # self.clear_screen(50)
+        options = self.terminal_cli(["View Playlist", "New Playlist", "Logout", "Exit" ],True)         
         if options == "View Playlist":
             self.view_playlist()   
             return 0
@@ -104,7 +106,7 @@ class Main():
             self.start()  
             return 0
         
-        if options == "Exit":
+        if options == "Exit" or options is None:
             self.exit()
             
     def view_playlist(self):    
@@ -121,7 +123,7 @@ class Main():
                 items.append(pl.name)
                  
             items.append("🔙 Back")        
-            options = self.terminal_cli(items)
+            options = self.terminal_cli(items,False)
             
             if options == "🔙 Back":               
                 self.user_menu() 
@@ -145,19 +147,19 @@ class Main():
         else:
             print(yellow("No tracks added yet!\n"))
         
-        options1 = self.terminal_cli(["➕ Add Song", "➖ Remove Song","❌ Delete playlist","🔙 Back"])
+        options = self.terminal_cli(["➕ Add Song", "➖ Remove Song","❌ Delete playlist","🔙 Back"],False)
                 
-        if options1 == "➕ Add Song":
-            self.add_songs_menu()    
+        if options == "➕ Add Song":
+            self.add_songs_menu() 
+            return 0   
             
-        if options1 == "➖ Remove Song":
+        if options == "➖ Remove Song":
             self.remove_song()
+            return 0 
             
-        if options1 == "❌ Delete playlist":                     
-            pl = session.query(Playlist).get(self.current_playlist.id)
-            
-            print(red(f"Delete {pl.name} Playlist")) 
-                       
+        if options == "❌ Delete playlist":                     
+            pl = session.query(Playlist).get(self.current_playlist.id)            
+            print(red(f"Delete {pl.name} Playlist"))                        
             io = self.terminal_cli(["✅ Yes","❌ No"])         
             
             if  io == "✅ Yes":
@@ -172,17 +174,17 @@ class Main():
                 self.playlist_menu()
                 return 0            
        
-        if options1 == "🔙 Back" or options1 is None:
+        if options == "🔙 Back" or options is None:
             self.view_playlist()
             return 0
 
     def add_songs_menu(self):
         
-        all_tracks = session.query(Songs).all()
-        print(all_tracks) 
-        print("\n")
+        # all_tracks = session.query(Songs).all()
+        # print(all_tracks) 
+        # print("\n")
             
-        options = self.terminal_cli(["Search Title","Search Artist","🔙 Back"])
+        options = self.terminal_cli(["Search Title","Search Artist","🔙 Back"],False)
         
         if options == "Search Title":            
             title = input(green("\nEnter title: "))
@@ -255,14 +257,14 @@ class Main():
             tracks = []
             for t in track_list:
                 tracks.append(str(t))
-            
+                
             terminal_menu = TerminalMenu(tracks,multi_select=True,show_multi_select_hint=True)
-            selected_track = terminal_menu.show() 
+            selected_track_indices = terminal_menu.show() 
 
-            if selected_track:                
+            if selected_track_indices:                
                 del_this = []
                 # this part took me hours to figure out....
-                for i in selected_track:
+                for i in selected_track_indices:
                     del_this.append(track_list[i])
                     # print(del_this)
  
@@ -275,7 +277,7 @@ class Main():
                 self.playlist_menu()
                 
             else:
-                print(red("No selection"))  
+                print(red("No selections"))  
                 time.sleep(2)
                 self.playlist_menu()
                 return 0
@@ -292,10 +294,19 @@ class Main():
     def clear_screen(self,lines):
         print("\n" * lines)
         
-    def terminal_cli(self,options):
-        terminal_menu = TerminalMenu(options)
+    def terminal_cli(self,options,clear = False):
+        terminal_menu = TerminalMenu(options,clear_screen = clear)
         menu_index = terminal_menu.show()
-        return options[menu_index]
+        if options[menu_index]:
+            return options[menu_index]
+        else:
+            return None    
+    
+    def verify_email(self,email):
+        regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b' #email verification
+        if re.fullmatch(regex, email):
+            return True
+
 
         
 
