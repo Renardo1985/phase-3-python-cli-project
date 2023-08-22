@@ -42,3 +42,4 @@ https://github.com/codetombomb/acc-fs-code-practice-creating-migrations
 https://medium.com/@moinahmedbgbn/a-basic-login-system-with-python-746a64dc88d6
 https://pypi.org/project/simple-term-menu/
 https://emojipedia.org/
+https://pypi.org/project/pwinput/
