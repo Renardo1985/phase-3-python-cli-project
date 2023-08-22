@@ -1,7 +1,7 @@
 import re
 import sys
 import time
-# import getpass
+import pwinput
 from prettycli import red, blue, yellow, green, color
 from simple_term_menu import TerminalMenu
 from models import User, Playlist, Songs
@@ -58,7 +58,7 @@ class Main():
         if self.verify_email(email):            
             user = User.find_user(email)
             if user:
-                pass_input = input("Enter Password: ")
+                pass_input = pwinput.pwinput("Enter Password: ")
                 auth = User.authenticate_user(email,pass_input)
                 if auth:
                     self.clear_screen(44) 
