@@ -190,7 +190,7 @@ class Main():
             
             if title:
                 # songs = Songs.find_song_by_title(title)
-                songs = find_by_title(title) 
+                songs = find_by_title(title) #search itunes music API
                 self.add_songs(songs)
             
             else:
@@ -204,7 +204,7 @@ class Main():
             
             if artist:
                 # songs = Songs.songs_by_artist(artist) 
-                songs = find_by_artist(artist) 
+                songs = find_by_artist(artist) #search itunes music API
                 self.add_songs(songs)
             
             else:
@@ -229,12 +229,12 @@ class Main():
                     
             if selected_track: 
                 for index in selected_track:
-                    test = Songs.song_exists(song_list[index])
+                    test = Songs.song_exists(song_list[index]) #tests if the song(s) selected to be added to the playlist exists in the Songs DB
                     if test:
-                        self.current_playlist.songs.append(test)
+                        self.current_playlist.songs.append(test) #appends song to playlist from the DB if it exists
                     else:
-                        session.add(song_list[index])
-                        self.current_playlist.songs.append(song_list[index])
+                        session.add(song_list[index]) #adds song to the DB if it does not exist.
+                        self.current_playlist.songs.append(song_list[index]) #adds songs to playlist
                         
                 print(green("\nSong(s) added!..."))
                 session.commit()

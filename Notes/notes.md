@@ -43,7 +43,7 @@ The app presents a main menu with options:
 
 Searching for Songs:
 The app prompts the user to enter a song or artist name they want to search for.
-The app searches the music database for songs or artists that match the query and displays the search results.
+The app searches the music api for songs or artists that match the query and displays the search results.
 
 Displaying Playlist:
 The app shows the current contents of the playlist, listing the title and artist of each song.

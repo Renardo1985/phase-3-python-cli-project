@@ -3,7 +3,7 @@
 
 ## Main idea 
 
-The main idea is to create a simple Command-Line Interface (CLI) App that allows users to interact with a music database and create playlists. Users can search for songs by Title or Artists within the database, add songs to a playlist, view the current playlist. The app provides a basic framework for managing music and creating personalized playlists using a CLI.
+The main idea is to create a simple Command-Line Interface (CLI) App that allows users to interact with a music database and create playlists. Users can search for songs by Title or Artists from the iTunes API, add songs to a playlist, view the current playlist. The app provides a basic framework for managing music and creating personalized playlists using a CLI.
 
 ## Technologies
 <ul>
