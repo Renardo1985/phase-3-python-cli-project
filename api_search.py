@@ -1,5 +1,6 @@
 from models import User, Songs, Playlist
 from sessions import session
+import re
 
 import requests
 import json # https://www.w3schools.com/python/python_json.asp
@@ -33,7 +34,7 @@ def find_by_artist(artist):
         results = data["results"]                
         songs = []     
         for track in results:
-            if track["artistName"] == artist:
+            if re.match(track["artistName"], artist, re.IGNORECASE):
                 song = Songs(title= track["trackName"], artist= track["artistName"],genre= track["primaryGenreName"])
                 if song in songs:
                     pass
