@@ -9,7 +9,6 @@ from api_search import find_by_artist, find_by_title
 from sessions import session
 
 
-
 class Main():
     
     def __init__(self) -> None:
@@ -17,7 +16,6 @@ class Main():
         self.current_playlist = None   
 
     def start(self):
-        # self.clear_screen(44)
         options = self.terminal_cli(["Login","Register","Exit"],True)    
         
         if options == "Login":
@@ -30,7 +28,6 @@ class Main():
             self.exit() 
         
                       
-    
     def reg_user(self):
         print(blue("Register New User\n"))
         email = input("Enter Email: ")
@@ -61,7 +58,7 @@ class Main():
         if self.verify_email(email):            
             user = User.find_user(email)
             if user:
-                pass_input = pwinput.pwinput("Enter Password: ")
+                pass_input = pwinput.pwinput("Enter Password: ") #hides password while typing
                 auth = User.authenticate_user(email,pass_input)
                 if auth:
                     self.clear_screen(44) 
@@ -87,7 +84,6 @@ class Main():
             
     def user_menu(self):        
         
-        # self.clear_screen(50)
         options = self.terminal_cli(["View Playlist", "New Playlist", "Logout", "Exit" ],True)         
         if options == "View Playlist":
             self.view_playlist()   
@@ -126,7 +122,7 @@ class Main():
                 items.append(pl.name)
                  
             items.append("🔙 Back")        
-            options = self.terminal_cli(items,False)
+            options = self.terminal_cli(items,True)
             
             if options == "🔙 Back":               
                 self.user_menu() 
@@ -178,6 +174,7 @@ class Main():
                 return 0            
        
         if options == "🔙 Back" or options is None:
+            self.current_playlist = None
             self.view_playlist()
             return 0
 
@@ -271,9 +268,8 @@ class Main():
                 del_this = []
                 # this part took me hours to figure out....
                 for i in selected_track_indices:
-                    del_this.append(track_list[i])
-                    # print(del_this)
- 
+                    del_this.append(track_list[i]) 
+                
                 for song in del_this:
                     self.current_playlist.songs.remove(song)
                 
