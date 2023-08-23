@@ -2,6 +2,7 @@ from sqlalchemy.orm import declarative_base, relationship
 from prettycli import red, blue, yellow, green, color
 from sqlalchemy import Column, Integer, String, DateTime, func, ForeignKey, Table
 from hashlib import sha256
+
 from sessions import session
 
 import string
@@ -85,12 +86,20 @@ class Songs(Base):
     def find_song_by_title(cls,title):
         song = session.query(cls).filter(cls.title.ilike(f"%{title}%")).all()
         return song
+            
     
     @classmethod
     def songs_by_artist(cls,artist):
         song = session.query(cls).filter(cls.artist.ilike(f"%{artist}%")).all()
         return song
         
+        
+    # Function to check if a song already exists in DB
+    @classmethod
+    def song_exists(cls,song):
+        existing_song = session.query(cls).filter_by(title=song.title, artist=song.artist, genre=song.genre).first()
+        return existing_song
+
         
 class Playlist(Base): 
     __tablename__ = "playlists"  

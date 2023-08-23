@@ -5,17 +5,20 @@ import pwinput
 from prettycli import red, blue, yellow, green, color
 from simple_term_menu import TerminalMenu
 from models import User, Playlist, Songs
+from api_search import find_by_artist, find_by_title
 from sessions import session
+
 
 
 class Main():
     
-    current_user = None 
-    current_playlist = None   
+    def __init__(self) -> None:
+        self.current_user = None 
+        self.current_playlist = None   
 
     def start(self):
-        self.clear_screen(44)
-        options = self.terminal_cli(["Login","Register","Exit"])    
+        # self.clear_screen(44)
+        options = self.terminal_cli(["Login","Register","Exit"],True)    
         
         if options == "Login":
             self.handle_login()
@@ -180,17 +183,14 @@ class Main():
 
     def add_songs_menu(self):
         
-        # all_tracks = session.query(Songs).all()
-        # print(all_tracks) 
-        # print("\n")
-            
         options = self.terminal_cli(["Search Title","Search Artist","🔙 Back"],False)
         
         if options == "Search Title":            
             title = input(green("\nEnter title: "))
             
             if title:
-                songs = Songs.find_song_by_title(title) 
+                # songs = Songs.find_song_by_title(title)
+                songs = find_by_title(title) 
                 self.add_songs(songs)
             
             else:
@@ -203,7 +203,8 @@ class Main():
             artist = input(green("\nEnter Artist: "))
             
             if artist:
-                songs = Songs.songs_by_artist(artist) 
+                # songs = Songs.songs_by_artist(artist) 
+                songs = find_by_artist(artist) 
                 self.add_songs(songs)
             
             else:
@@ -228,7 +229,12 @@ class Main():
                     
             if selected_track: 
                 for index in selected_track:
-                    self.current_playlist.songs.append(song_list[index])
+                    test = Songs.song_exists(song_list[index])
+                    if test:
+                        self.current_playlist.songs.append(test)
+                    else:
+                        session.add(song_list[index])
+                        self.current_playlist.songs.append(song_list[index])
                         
                 print(green("\nSong(s) added!..."))
                 session.commit()
@@ -306,9 +312,6 @@ class Main():
         regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b' #email verification
         if re.fullmatch(regex, email):
             return True
-
-
-        
 
 app = Main()
 app.start()
