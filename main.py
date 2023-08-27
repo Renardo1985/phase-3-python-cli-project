@@ -1,8 +1,9 @@
 import re
+import os
 import sys
 import time
 import pwinput
-from prettycli import red, blue, yellow, green, color
+from prettycli import red, blue, yellow, green
 from simple_term_menu import TerminalMenu
 from models import User, Playlist, Songs
 from api_search import find_by_artist, find_by_title
@@ -37,7 +38,7 @@ class Main():
             if password:
                 User.register_user(email,password)
                 user = session.query(User).filter(User.email == email).first()
-                print(f"Created {user.email}")
+                print(green(f"Created {user.email}"))
                 time.sleep(2)
                 self.handle_login() 
             else:
@@ -52,7 +53,7 @@ class Main():
             
                        
     def handle_login(self):
-        self.clear_screen(2)
+        
         print(blue("Login\n"))
         email = input("Enter Email: ")
         if self.verify_email(email):            
@@ -60,9 +61,8 @@ class Main():
             if user:
                 pass_input = pwinput.pwinput("Enter Password: ") #hides password while typing
                 auth = User.authenticate_user(email,pass_input)
-                if auth:
-                    self.clear_screen(44) 
-                    print(f"Welcome {auth.email}\n")                       
+                if auth: 
+                    print(green(f"\nWelcome {auth.email}"))              
                     self.current_user = auth
                     time.sleep(2)
                     self.user_menu()
@@ -124,7 +124,7 @@ class Main():
             items.append("🔙 Back")        
             options = self.terminal_cli(items,True)
             
-            if options == "🔙 Back":               
+            if options == "🔙 Back" or options is None:               
                 self.user_menu() 
                 return 0           
             
@@ -137,17 +137,16 @@ class Main():
   
         
     def playlist_menu(self):
-        
-        self.clear_screen(50)
+        os.system("clear")
         print(green(f"✅ You selected {self.current_playlist.name} playlist"))
         print(blue("Tracks:"))
         if self.current_playlist.songs:
             print(f"{self.current_playlist.songs}\n")
         else:
             print(yellow("No tracks added yet!\n"))
-        
-        options = self.terminal_cli(["➕ Add Song", "➖ Remove Song","❌ Delete playlist","🔙 Back"],False)
-                
+            
+        options = self.terminal_cli(["➕ Add Song", "➖ Remove Song","❌ Delete playlist","🔙 Back"],False)      
+           
         if options == "➕ Add Song":
             self.add_songs_menu() 
             return 0   
@@ -169,9 +168,9 @@ class Main():
                 self.user_menu()
                 return 0
             
-            if io == "❌ No":
+            if io == "❌ No" or io is None:
                 self.playlist_menu()
-                return 0            
+                return 0   
        
         if options == "🔙 Back" or options is None:
             self.current_playlist = None
@@ -221,10 +220,10 @@ class Main():
             for track in song_list:
                 tracks.append(str(track))
             
-            terminal_menu = TerminalMenu(tracks,multi_select=True,show_multi_select_hint=True)
+            terminal_menu = TerminalMenu(tracks,multi_select=True,show_multi_select_hint=True,clear_screen = True)
             selected_track = terminal_menu.show() 
                     
-            if selected_track: 
+            if selected_track is not None: 
                 for index in selected_track:
                     test = Songs.song_exists(song_list[index]) #tests if the song(s) selected to be added to the playlist exists in the Songs DB
                     if test:
@@ -261,10 +260,10 @@ class Main():
             for t in track_list:
                 tracks.append(str(t))
                 
-            terminal_menu = TerminalMenu(tracks,multi_select=True,show_multi_select_hint=True)
+            terminal_menu = TerminalMenu(tracks,multi_select=True,show_multi_select_hint=True,clear_screen = True)
             selected_track_indices = terminal_menu.show() 
 
-            if selected_track_indices:                
+            if selected_track_indices is not None:                
                 del_this = []
                 # this part took me hours to figure out....
                 for i in selected_track_indices:
@@ -292,14 +291,12 @@ class Main():
     def exit(self):
         print(red("GoodBye.."))
         sys.exit(0)
-        
-    def clear_screen(self,lines):
-        print("\n" * lines)
+
         
     def terminal_cli(self,options,clear = False):
         terminal_menu = TerminalMenu(options,clear_screen = clear)
         menu_index = terminal_menu.show()
-        if options[menu_index]:
+        if menu_index is not None:
             return options[menu_index]
         else:
             return None    
@@ -309,5 +306,5 @@ class Main():
         if re.fullmatch(regex, email):
             return True
 
-app = Main()
-app.start()
+app = Main() # create an instance of Main
+app.start() #calls instance

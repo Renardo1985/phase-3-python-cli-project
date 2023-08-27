@@ -27,7 +27,7 @@ def find_by_title(title):
 
 
 def find_by_artist(artist):
-    response = requests.get(f"https://itunes.apple.com/search?term={artist}&media=music&entity=song&attribute=artistTerm&country=US&limit=100")  
+    response = requests.get(f"https://itunes.apple.com/search?term={artist}&media=music&entity=song&attribute=artistTerm&country=US&limit=50")  
     if response.status_code == 200:
         data = json.loads(response.text)
            
