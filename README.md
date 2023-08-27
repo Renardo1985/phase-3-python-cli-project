@@ -29,7 +29,7 @@ git@github.com:Renardo1985/phase-3-python-cli-project.git
 
 
 ## Video Walkthrough 
-Video/Cli-Walkthrough.mp4
+https://github.com/Renardo1985/phase-3-python-cli-project/blob/c04bd8bb95a6d3749de861f9e942234f298b1d95/Video/Cli-Walkthrough.mp4
 
 
 ## Acknowledgments and Credits
